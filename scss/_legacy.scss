@@ -7,7 +7,6 @@ body {
     background-color: #fff;
 }
 
-
 @media (min-width: 360px) {
     .container {
         max-width: 1555px;
@@ -23,20 +22,16 @@ p {
     list-style: none;
 }
 
-/* .container{
-border: 1px red solid;
-} */
-
 /*--------------------- Хедр ---------------------*/
 
 
 .head {
-    background-color: #3c3c3c;
+    background-color: #323e57;
     padding: 15px;
 }
 
 .head__text__adres {
-    color: #89929d;
+    color: #6f81a7;
     font-weight: 550;
 
     @media screen and (max-width: 576px) {
@@ -45,7 +40,7 @@ border: 1px red solid;
 }
 
 .head__text__numbercok__two {
-    color: #89929d;
+    color: #6f81a7;
     font-size: 14px;
     font-weight: 500;
     text-align: right;
@@ -56,13 +51,13 @@ border: 1px red solid;
 }
 
 .acst {
-    color: #a5acb4;
+    color: #6f81a7;
     font-size: 14px;
     font-weight: 600;
 }
 
 .acst:hover {
-    color: #b4c2d3;
+    color: #5d709b;
     text-decoration: none;
 }
 
@@ -70,24 +65,8 @@ border: 1px red solid;
 /*--------------------- header ---------------------*/
 
 
-.logo__blue__text__header {
-    font-size: 18px;
-    color: #2a406c;
-    text-transform: uppercase;
-}
-
-.logo__blue__text__company__header {
-    font-size: 14px;
-    color: #2a406c;
-}
-
 .header__block__two {
     padding: 35px 0px 35px 0px;
-}
-
-.logo__block img {
-    padding: 15px 15px 15px 0px;
-
 }
 
 .header__number {
@@ -120,8 +99,8 @@ border: 1px red solid;
 }
 
 .button__zayavka {
-    color: #5ba4dd;
-    border: 1px #5ba4dd solid;
+    color: #2e3f62;
+    border: 1px #2e3f62 solid;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 500;
@@ -155,20 +134,19 @@ border: 1px red solid;
 }
 
 .button__zayavka a {
-    display: block;
-    // padding: 12px 10px;
-    color: #5ba4dd;
+    display: block;    
+    color: #2e3f62;
     line-height: 44px;
     white-space: nowrap;
 }
 
 .button__system__edo {
-    color: #5ba4dd;
-    border: 1px #5ba4dd solid;
+    color: #2e3f62;
+    border: 1px #2e3f62 solid;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 500;
-    background-color: #5ba4dd;
+    background-color: #2e3f62;
     padding: 0 15px;
 
     @media screen and (max-width: 1535px) {
@@ -185,17 +163,17 @@ border: 1px red solid;
 }
 
 .button__system__edo:hover {
-    background-color: #519ad3
+    background-color: #3c4f79
 }
 
 .button__system__edo:active {
-    background-color: #3d83b9
+    background-color: #223252
 }
 
 /*--------------------- Footer ---------------------*/
 
 .footer__box {
-    background-color: #333333;
+    background-color: #3d4962;
     padding: 45px 0px 45px 0px;
 }
 
@@ -224,7 +202,7 @@ border: 1px red solid;
 
 .line__footer__two {
     @media screen and (max-width: 320px) {
-        border-bottom: 1px #7d7b7a solid;
+        border-bottom: 1px #6f81a7 solid;
         width: 100%;
     }
 }
@@ -232,49 +210,36 @@ border: 1px red solid;
 .logo__gray__text {
     text-transform: uppercase;
     font-size: 18px;
-    color: #858585;
-
+    color: #6f81a7;
     @media screen and (max-width: 320px) {
         font-size: 14px;
     }
 
 }
 
-.logo__gray__text__company {
-    font-size: 14px;
-    color: #858585;
-}
-
 .footer__text__left {
-    color: #858585;
+    color: #6f81a7;
     font-size: 12px;
     margin-bottom: 25px;
     font-weight: 500;
 }
 
 .line__footer {
-    border-bottom: 1px #7d7b7a solid;
+    border-bottom: 1px #6f81a7 solid;
     margin-bottom: 25px;
     width: 100%;
 }
 
-.menu__footer {
-    display: flex;
-
-    @media screen and (max-width: 1400px) {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .menu__footer li {
     color: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 10px;
+    line-height: 3;
 
     @media screen and (max-width: 1400px) {
         padding: 10px 0px 0px 0px;
+        line-height: 2;
     }
 }
 
@@ -283,12 +248,12 @@ border: 1px red solid;
 }
 
 .basement__footer {
-    background-color: #252525;
+    background-color: #323e57;
     padding: 15px 0px 15px 0px;
 }
 
 .basement__text {
-    color: #858585;
+    color: #6f81a7;
     font-size: 12px;
     font-weight: 400;
 }
@@ -296,7 +261,7 @@ border: 1px red solid;
 
 .political__konf {
     font-size: 12px;
-    color: #858585;
+    color: #6f81a7;
     font-weight: 500;
 }
 
@@ -314,7 +279,7 @@ border: 1px red solid;
 .razrabotano__v__naks__media {
     font-size: 12px;
     font-weight: 500;
-    color: #858585;  
+    color: #6f81a7;  
 }
 
 
@@ -327,23 +292,23 @@ border: 1px red solid;
 
 .footer__mail {
     font-size: 16px;
-    color: #858585;
+    color: #6f81a7;
     margin-bottom: 15px;
 }
 
 .footer__adres {
     font-size: 12px;
-    color: #858585;
+    color: #6f81a7;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .adres__on__map {
-    margin-bottom: 25px;
+    margin-bottom: 25px;    
 }
 
 .adres__on__map a {
-    color: #9c9c9c;
+    color: #8fa0c4;
     font-size: 14px;
     font-weight: 500;
     text-decoration: underline;
@@ -352,11 +317,11 @@ border: 1px red solid;
 
 .button__zayavka__footer {
     color: #ffffff;
-    border: 1px #ffffff solid;
+    border: none;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 500;
-    background: transparent;
+    background-color: #8a9abd;
     padding: 0px 15px;
     margin-bottom: 25px;
 }
@@ -369,12 +334,12 @@ border: 1px red solid;
 }
 
 .button__zayavka__footer:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #788aaf;
     color: #fff;
 }
 
 .button__zayavka__footer:active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #61759c;
     color: #fff;
 }
 
