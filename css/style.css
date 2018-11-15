@@ -54,7 +54,8 @@ p {
 .header__number {
   font-size: 24px;
   color: #000;
-  font-weight: 550; }
+  font-weight: 550;
+  text-align: right; }
   @media screen and (max-width: 1510px) {
     .header__number {
       font-size: 18px; } }
@@ -62,7 +63,8 @@ p {
 .header__mail {
   font-size: 14px;
   color: #000;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: right; }
   @media screen and (max-width: 380px) {
     .header__mail {
       margin-bottom: 15px; } }
@@ -80,26 +82,8 @@ p {
   font-size: 14px;
   font-weight: 500;
   background: transparent;
-  padding: 0px 15px; }
-  @media screen and (max-width: 1535px) {
-    .button__zayavka {
-      flex: 1 1;
-      margin: 0px 0px 10px; } }
-  @media screen and (max-width: 1200px) {
-    .button__zayavka {
-      flex: 1 1;
-      margin: 0px;
-      margin-right: 15px; } }
-  @media only screen and (max-width: 380px) {
-    .button__zayavka {
-      margin-right: 0; } }
-  @media only screen and (max-width: 320px) {
-    .button__zayavka {
-      margin-right: 0;
-      margin-bottom: 15px; } }
-  @media screen and (max-width: 360px) {
-    .button__zayavka {
-      margin-bottom: 15px; } }
+  padding: 0px 15px;
+  width: 100%; }
 
 .button__zayavka a {
   display: block;
@@ -114,10 +98,8 @@ p {
   font-size: 14px;
   font-weight: 500;
   background-color: #2e3f62;
-  padding: 0 15px; }
-  @media screen and (max-width: 1535px) {
-    .button__system__edo {
-      flex: 1 1; } }
+  padding: 0 15px;
+  width: 100%; }
 
 .button__system__edo a {
   display: block;
@@ -269,9 +251,331 @@ p {
   background-color: #61759c;
   color: #fff; }
 
+/*--------------------- БГ + информация ---------------------*/
+.sasp__logo {
+  margin-bottom: 25px;
+  font-size: 16px; }
+  @media screen and (max-width: 480px) {
+    .sasp__logo {
+      width: 300px;
+      height: 85px; } }
+  @media screen and (max-width: 768px) {
+    .sasp__logo {
+      width: 300px;
+      height: 85px; } }
+  @media screen and (max-width: 320px) {
+    .sasp__logo {
+      width: 300px;
+      height: 85px;
+      display: none; } }
+
+.sasp__text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  float: right; }
+
+.bg-block-01 {
+  background: url(../img/background.png) no-repeat;
+  width: 100%;
+  background-size: cover; }
+
+.bg {
+  background: url(../img/gradient.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 100%; }
+
+.blog-info {
+  padding: 60px 0px 60px 0px; }
+
+.about__organization__text {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+  @media screen and (max-width: 320px) {
+    .about__organization__text {
+      font-size: 25px; } }
+
+.about__organization__text__two {
+  font-size: 16px;
+  margin-bottom: 30px; }
+  @media screen and (max-width: 320px) {
+    .about__organization__text__two {
+      font-size: 16px; } }
+
+.button__zayavka__online {
+  background-color: #ff5d5d;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+  display: block;
+  width: 45%; }
+  @media screen and (max-width: 1400px) {
+    .button__zayavka__online {
+      width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .button__zayavka__online {
+      width: 100%; } }
+  @media screen and (max-width: 990px) {
+    .button__zayavka__online {
+      margin-bottom: 15px; } }
+  @media screen and (max-width: 480px) {
+    .button__zayavka__online {
+      margin-bottom: 0px; } }
+  @media screen and (max-width: 320px) {
+    .button__zayavka__online {
+      margin-bottom: 15px; } }
+  @media screen and (max-width: 425px) {
+    .button__zayavka__online {
+      margin-bottom: 15px; } }
+
+.button__zayavka__online a {
+  display: block;
+  padding: 15px; }
+
+.button__zayavka__online:hover {
+  background-color: #e63838;
+  transition: 0.3s; }
+
+.button__zayavka__text {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase; }
+  @media screen and (max-width: 320px) {
+    .button__zayavka__text {
+      font-size: 12px; } }
+
+.button__zayavka__text:hover {
+  text-decoration: none;
+  color: #fff; }
+
+.button__zayavka__text:active {
+  background-color: #c92525;
+  border-radius: 3px; }
+
+/*--------------------- Фон + информация правая сторона ---------------------*/
+.head__information {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 375px) {
+    .head__information {
+      text-align: center; } }
+  @media screen and (max-width: 320px) {
+    .head__information {
+      text-align: center; } }
+  @media screen and (max-width: 425px) {
+    .head__information {
+      text-align: center; } }
+  @media screen and (max-width: 768px) {
+    .head__information {
+      text-align: center; } }
+
+.prof__standart {
+  width: 49%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 15px; }
+
+.block__inform__name {
+  width: 100%;
+  background-color: #465f92;
+  margin-bottom: 25px; }
+
+.pf__text a {
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 35px;
+  text-decoration: none;
+  display: block; }
+  @media screen and (max-width: 1125px) {
+    .pf__text a {
+      font-size: 16px; } }
+
+.pf__text:hover {
+  margin-left: 5px;
+  transition: 0.2s ease; }
+
+.button__uslugi {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: transparent;
+  width: 35%;
+  margin-top: 60px; }
+  @media screen and (max-width: 1600px) {
+    .button__uslugi {
+      width: 100%; } }
+
+.button__ob_uslugax__text {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 14px; }
+
+.button__ob_uslugax__text a {
+  text-decoration: none; }
+
+.button__ob_uslugax__text:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff; }
+
+.button__ob_uslugax__text:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff; }
+
+.section__header {
+  font-size: 30px;
+  font-weight: 200;
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 50px; }
+
+.section__header__two {
+  font-size: 30px;
+  font-weight: 200;
+  color: #000;
+  margin-bottom: 15px; }
+
+.line__section {
+  border-bottom: 1px solid #000;
+  margin-bottom: 50px;
+  width: 50px; }
+
+.box__news__content {
+  padding: 40px;
+  background-color: #f8f8f8;
+  margin-bottom: 40px; }
+
+.news__naks__tag {
+  font-size: 12px;
+  color: #1a2a4a;
+  margin-bottom: 20px; }
+
+.date__news {
+  font-size: 12px;
+  color: #999999; }
+
+.text__content__news {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 15px; }
+
+.text__content__news:hover {
+  color: #244485;
+  transition: 0.2s;
+  margin-left: 15px; }
+
+.text__two__content__news {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400; }
+
+.menu__background {
+  background-color: #2e3f62;
+  padding: 15px 0px 15px 0px; }
+
+.nav-item {
+  padding: 0px;
+  margin: 0px; }
+
+.navbar {
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px; }
+
+.menu__navbar ul {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  justify-content: space-between; }
+  @media screen and (max-width: 992px) {
+    .menu__navbar ul {
+      margin-top: 15px;
+      margin-bottom: 15px; } }
+
+.menu__navbar .navbar {
+  padding: 0; }
+
+.menu__navbar .navbar li {
+  cursor: pointer; }
+
+.menu__navbar .navbar .nav-item .nav-link {
+  padding: 0; }
+
+.menu__navbar .navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  margin-right: 15px; }
+
+.menu__navbar .navbar .nav-item .nav__link__two {
+  margin: 0px 20px 0px 20px; }
+  @media screen and (max-width: 992px) {
+    .menu__navbar .navbar .nav-item .nav__link__two {
+      padding: 0px 0px 15px;
+      font-weight: 200;
+      line-height: 3; } }
+
+.navbar-dark .navbar-nav .nav-link .navbar-dark .navbar-nav .nav-link:hover {
+  color: white; }
+
+.dropdown-menu {
+  margin-top: 20px;
+  border-radius: 0px;
+  color: #fff; }
+  @media screen and (max-width: 320px) {
+    .dropdown-menu {
+      font-size: 12px;
+      color: #fff; } }
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #4b505c; }
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff; }
+
+.form-control {
+  background-color: transparent;
+  float: right; }
+
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: none; }
+
+input[type="search"]::-webkit-input-placeholder {
+  color: #fff; }
+
+input[type="search"]:-ms-input-placeholder {
+  color: #fff; }
+
+input[type="search"]::-ms-input-placeholder {
+  color: #fff; }
+
+input[type="search"]::placeholder {
+  color: #fff; }
+
+.form-control:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+.form-control:focus::-moz-placeholder {
+  color: transparent; }
+
+.form-control:focus:-moz-placeholder {
+  color: transparent; }
+
+.form-control:focus:-ms-input-placeholder {
+  color: transparent; }
+
 @media screen and (max-width: 320px) {
-  пдз
-.header__logo__center {
+  .header__logo__center {
     width: 230px;
     height: 45px; } }
 
@@ -282,7 +586,8 @@ p {
   align-items: center; }
   @media screen and (max-width: 1500px) {
     .header__buttons-container {
-      margin: 0px; } }
+      margin: 0px;
+      margin-top: 15px; } }
 
 @media screen and (max-width: 1300px) {
   .logo__block {

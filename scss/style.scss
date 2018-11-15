@@ -1,7 +1,7 @@
 @import "_legacy.scss";
 @import "_header.scss";
+@import "_burger_menu.scss";
 
-пдз
 .header__logo__center{
     @media screen and (max-width: 320px) {
         width: 230px;
@@ -17,7 +17,8 @@
     align-items: center;
 
     @media screen and (max-width: 1500px) {
-        margin: 0px;       
+        margin: 0px;
+        margin-top: 15px;       
     }    
 }
 
