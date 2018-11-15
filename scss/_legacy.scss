@@ -1,0 +1,381 @@
+/*--------------------- Спецификация ---------------------*/
+
+body {
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+
+@media (min-width: 360px) {
+    .container {
+        max-width: 1555px;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.row a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* .container{
+border: 1px red solid;
+} */
+
+/*--------------------- Хедр ---------------------*/
+
+
+.head {
+    background-color: #3c3c3c;
+    padding: 15px;
+}
+
+.head__text__adres {
+    color: #89929d;
+    font-weight: 550;
+
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+}
+
+.head__text__numbercok__two {
+    color: #89929d;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
+}
+
+.acst {
+    color: #a5acb4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.acst:hover {
+    color: #b4c2d3;
+    text-decoration: none;
+}
+
+
+/*--------------------- header ---------------------*/
+
+
+.logo__blue__text__header {
+    font-size: 18px;
+    color: #2a406c;
+    text-transform: uppercase;
+}
+
+.logo__blue__text__company__header {
+    font-size: 14px;
+    color: #2a406c;
+}
+
+.header__block__two {
+    padding: 35px 0px 35px 0px;
+}
+
+.logo__block img {
+    padding: 15px 15px 15px 0px;
+
+}
+
+.header__number {
+    font-size: 24px;
+    color: #000;
+    font-weight: 550;
+
+    @media screen and (max-width: 1510px) {
+        font-size: 18px;
+    }
+}
+
+.header__mail {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+
+    @media screen and (max-width: 380px) {
+        margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 320px) {
+        margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 365px) {
+        margin-bottom: 15px;
+    }
+
+}
+
+.button__zayavka {
+    color: #5ba4dd;
+    border: 1px #5ba4dd solid;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    padding: 0px 15px;
+
+    @media screen and (max-width: 1535px) {
+        flex: 1 1;
+        margin: 0px 0px 10px;
+    }
+
+    @media screen and (max-width : 1200px) {
+        flex: 1 1;
+        margin: 0px;
+        margin-right: 15px;
+    }
+
+    @media only screen and (max-width : 380px) {
+        margin-right: 0;
+    }
+
+    @media only screen and (max-width : 320px) {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 360px) {
+        margin-bottom: 15px;
+    }
+
+}
+
+.button__zayavka a {
+    display: block;
+    // padding: 12px 10px;
+    color: #5ba4dd;
+    line-height: 44px;
+    white-space: nowrap;
+}
+
+.button__system__edo {
+    color: #5ba4dd;
+    border: 1px #5ba4dd solid;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #5ba4dd;
+    padding: 0 15px;
+
+    @media screen and (max-width: 1535px) {
+        flex: 1 1;
+    }
+
+}
+
+.button__system__edo a {
+    display: block;
+    color: #fff;
+    white-space: nowrap;
+    line-height: 44px;
+}
+
+.button__system__edo:hover {
+    background-color: #519ad3
+}
+
+.button__system__edo:active {
+    background-color: #3d83b9
+}
+
+/*--------------------- Footer ---------------------*/
+
+.footer__box {
+    background-color: #333333;
+    padding: 45px 0px 45px 0px;
+}
+
+.logo__gray {
+    margin-bottom: 20px;
+}
+
+.sasp__logo__gray {
+    @media screen and (max-width: 320px) {
+        width: 223px;
+        height: 79px;
+        display: none;
+    }
+}
+
+.sasp__logo__gray__two {
+    display: none;
+}
+
+.sasp__logo__gray__two {
+    @media screen and (max-width: 320px) {
+        display: block;
+        margin-top: 25px;
+    }
+}
+
+.line__footer__two {
+    @media screen and (max-width: 320px) {
+        border-bottom: 1px #7d7b7a solid;
+        width: 100%;
+    }
+}
+
+.logo__gray__text {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #858585;
+
+    @media screen and (max-width: 320px) {
+        font-size: 14px;
+    }
+
+}
+
+.logo__gray__text__company {
+    font-size: 14px;
+    color: #858585;
+}
+
+.footer__text__left {
+    color: #858585;
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.line__footer {
+    border-bottom: 1px #7d7b7a solid;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.menu__footer {
+    display: flex;
+
+    @media screen and (max-width: 1400px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.menu__footer li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 15px;
+
+    @media screen and (max-width: 1400px) {
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+.menu__footer li:hover {
+    color: #e0e0e0;
+}
+
+.basement__footer {
+    background-color: #252525;
+    padding: 15px 0px 15px 0px;
+}
+
+.basement__text {
+    color: #858585;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.political__konf {
+    font-size: 12px;
+    color: #858585;
+    font-weight: 500;
+}
+
+.naks__media__logo {
+    margin-left: 25px;
+}
+
+.razrabotano__basement__footer{
+    text-align: right;
+    @media screen and (max-width: 320px) {
+        text-align: center;
+    }
+}
+
+.razrabotano__v__naks__media {
+    font-size: 12px;
+    font-weight: 500;
+    color: #858585;  
+}
+
+
+.footer__number {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer__mail {
+    font-size: 16px;
+    color: #858585;
+    margin-bottom: 15px;
+}
+
+.footer__adres {
+    font-size: 12px;
+    color: #858585;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.adres__on__map {
+    margin-bottom: 25px;
+}
+
+.adres__on__map a {
+    color: #9c9c9c;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+.button__zayavka__footer {
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
+
+.button__zayavka__footer a {
+    display: block;
+    color: #ffffff;
+    line-height: 44px;
+    white-space: nowrap;
+}
+
+.button__zayavka__footer:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.button__zayavka__footer:active {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+
