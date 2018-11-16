@@ -373,30 +373,12 @@ p {
     .head__information {
       text-align: center; } }
 
-.prof__standart {
-  width: 49%;
-  background-color: #fff;
-  border-radius: 3px;
-  margin-bottom: 15px; }
-
-.block__inform__name {
-  width: 100%;
+.box__service {
   background-color: #465f92;
-  margin-bottom: 25px; }
-
-.pf__text a {
-  font-size: 18px;
-  color: #fff;
-  padding: 20px 35px;
-  text-decoration: none;
-  display: block; }
-  @media screen and (max-width: 1125px) {
-    .pf__text a {
-      font-size: 16px; } }
-
-.pf__text:hover {
-  margin-left: 5px;
-  transition: 0.2s ease; }
+  padding: 25px; }
+  .box__service a {
+    font-size: 20px;
+    color: #fff; }
 
 .button__uslugi {
   border: 1px solid #fff;
@@ -451,12 +433,12 @@ p {
   margin-bottom: 40px; }
 
 .news__naks__tag {
-  font-size: 12px;
+  font-size: 14px;
   color: #1a2a4a;
   margin-bottom: 20px; }
 
 .date__news {
-  font-size: 12px;
+  font-size: 14px;
   color: #999999; }
 
 .text__content__news {
@@ -474,6 +456,146 @@ p {
   font-size: 14px;
   color: #999999;
   font-weight: 400; }
+
+.info-icon {
+  margin-right: 5px; }
+
+.link__profstandarti {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  border: 1px solid #bebebe;
+  padding: 10px 15px; }
+  @media screen and (max-width: 630px) {
+    .link__profstandarti {
+      display: none; } }
+
+.link__profstandarti:hover {
+  background-color: #f7f7f7; }
+
+.info-icon {
+  margin-right: 5px; }
+
+.link__profstandarti__mob {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  border: 1px solid #bebebe;
+  padding: 10px 15px;
+  display: none;
+  margin-bottom: 25px;
+  text-align: center; }
+  @media screen and (max-width: 630px) {
+    .link__profstandarti__mob {
+      display: block; } }
+
+.link__profstandarti:hover {
+  background-color: #f7f7f7; }
+
+.button__list {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  color: #000;
+  font-weight: 300;
+  box-shadow: none;
+  cursor: pointer;
+  outline: none; }
+
+.button__list:focus {
+  box-shadow: none;
+  outline: none; }
+
+.button__list:hover {
+  margin-left: 10px;
+  transition: 0.2s; }
+
+.card {
+  border: none;
+  margin-bottom: 50px; }
+
+.card-header {
+  background-color: #fcfcfc;
+  outline: none;
+  padding: 25px;
+  border-bottom: 2px solid #7191d7;
+  cursor: pointer; }
+
+.card-header:hover {
+  background-color: #f3f3f3; }
+
+.card-body {
+  background-color: #fcfcfc;
+  border-bottom: 2px solid #dbe6ff;
+  padding: 30px;
+  font-size: 16px;
+  color: #000; }
+
+.text__link {
+  border-bottom: 1px dashed;
+  font-size: 18px;
+  color: #0173c1;
+  font-weight: 400;
+  line-height: 2;
+  align-content: left; }
+  @media screen and (max-width: 576px) {
+    .text__link {
+      font-size: 16px; } }
+  @media screen and (max-width: 320px) {
+    .text__link {
+      font-size: 14px; } }
+
+.box__text__link {
+  margin-left: 10px; }
+
+.text__link:hover {
+  margin-left: 10px;
+  transition: 0.2s; }
+
+.card__body__header__text {
+  font-size: 18px;
+  color: #000;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.arrow__list {
+  margin: 0;
+  float: right;
+  display: block;
+  margin-top: 15px; }
+  @media screen and (max-width: 320px) {
+    .arrow__list {
+      display: none; } }
+  @media screen and (max-width: 576px) {
+    .arrow__list {
+      display: none; } }
+
+.card__name {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500; }
+
+.card__perechen__doc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px; }
+
+.line__text {
+  border-bottom: 2px solid #7191d7;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.box__news__two {
+  width: 45%; }
+
+.news__content__small {
+  font-size: 18px;
+  font-weight: 450;
+  color: #000; }
 
 .menu__background {
   background-color: #2e3f62;
