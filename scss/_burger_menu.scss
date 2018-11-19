@@ -3,23 +3,16 @@
     background-color: #2e3f62;
     padding: 15px 0px 15px 0px;
 }
-
-
-.nav-item{
-    padding: 0px;
-    margin: 0px;
-}
+    
 .navbar{
 font-size: 16px;
 color: #fff;
-text-transform: uppercase;
-padding: 0px;
+
 }
 
 .menu__navbar ul {
     color: #fff;
-    font-size: 16px;   
-    text-transform: uppercase;
+    font-size: 16px;      
     justify-content: space-between;
     @media screen and (max-width: 992px) {
         margin-top: 15px;
@@ -41,12 +34,14 @@ padding: 0px;
 }
 
 .menu__navbar .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
-    margin-right: 15px;
+    // padding: 0;
+    margin-right: 35px;
+    text-transform: uppercase;
 }
 
 .menu__navbar .navbar .nav-item .nav__link__two {
-    margin: 0px 20px 0px 20px;
+    margin-right: 35px;
+    text-transform: uppercase;
 
     @media screen and (max-width: 992px) {
         padding: 0px 0px 15px;
@@ -64,6 +59,8 @@ padding: 0px;
     margin-top: 20px;
     border-radius: 0px;
     color: #fff;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+    line-height: 2;
 
     @media screen and (max-width: 320px) {
         font-size: 12px;
