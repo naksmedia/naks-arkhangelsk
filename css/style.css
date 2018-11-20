@@ -58,13 +58,18 @@ p {
   text-align: right; }
   @media screen and (max-width: 1510px) {
     .header__number {
-      font-size: 18px; } }
+      margin-top: 15px;
+      font-size: 18px;
+      float: left; } }
 
 .header__mail {
   font-size: 14px;
   color: #000;
   font-weight: 400;
   text-align: right; }
+  @media screen and (max-width: 1510px) {
+    .header__mail {
+      float: left; } }
   @media screen and (max-width: 380px) {
     .header__mail {
       margin-bottom: 15px; } }
