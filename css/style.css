@@ -216,6 +216,9 @@ p {
   font-size: 16px;
   color: #6f81a7;
   margin-bottom: 15px; }
+  .footer__mail a {
+    color: #6f81a7;
+    border-bottom: 1px solid #6f81a7; }
 
 .footer__adres {
   font-size: 12px;
@@ -608,6 +611,22 @@ p {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+.header__vopros__text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000; }
+
+.vopros__text {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000;
+  margin-top: 15px; }
+
+.vopros__otvet {
+  background-color: rgba(60, 255, 0, 0.1);
+  padding: 7px;
+  margin-top: 10px; }
+
 .arrow__list {
   margin: 0;
   float: right;
@@ -926,7 +945,8 @@ p {
   font-size: 20px;
   font-weight: 300;
   color: #000;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 .mail {
   font-size: 16px;
@@ -1122,6 +1142,68 @@ p {
   background-color: rgba(255, 30, 30, 0.1);
   padding: 25px;
   margin-bottom: 35px; }
+
+.header__center__text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 20px; }
+
+.header__text__ocenter {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 25px; }
+
+.box__cok__dopusk {
+  background-color: #2e3f62;
+  padding: 25px;
+  margin-bottom: 35px;
+  width: 350px; }
+  @media screen and (max-width: 500px) {
+    .box__cok__dopusk {
+      width: 100%; } }
+
+.box__cok__dopusk__text {
+  color: #fff;
+  font-size: 16px; }
+
+.perechen__ustroistv {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000; }
+
+.header__name__perechen {
+  font-size: 20px;
+  font-weight: 450;
+  color: #2e3f62;
+  margin-bottom: 15px; }
+
+.name__text__header {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e3f62;
+  margin-bottom: 10px; }
+
+.name__small__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 25px; }
+
+.box__kontakti {
+  margin-bottom: 25px; }
+
+.line__text__kompany {
+  border-bottom: 1px solid #7191d7;
+  margin-top: 20px; }
+
+.adres__on__map__contact {
+  color: #9c9c9c;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: 10px; }
 
 .menu__background {
   background-color: #2e3f62;
