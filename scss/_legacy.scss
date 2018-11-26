@@ -650,6 +650,13 @@ p {
     color: #244485;
 }
 
+.all__news__button{
+    padding: 10px 20px;
+    border: 1px #244485 solid;
+   color: #244485;
+   font-size: 14px
+}
+
 // Right column Центр аттестации
 .info-icon {
     margin-right: 5px;
@@ -663,7 +670,6 @@ p {
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
     padding: 10px 15px;
     background-color: #ffffff;
-
     @media screen and (max-width: 630px) {
         display: none;
     }
@@ -1460,8 +1466,15 @@ p {
 .header__center__text{
 font-size: 24px;
 font-weight: 500;
-color: #000;
+color: #354d7e;
 margin-bottom: 20px;
+}
+
+.header__documenti{
+    font-size: 18px;
+    font-weight: 300;
+    color: #797979;
+    margin-bottom: 15px;
 }
 
 .header__text__ocenter{
@@ -1470,6 +1483,8 @@ margin-bottom: 20px;
     color: #000;
     margin-bottom: 25px;
 }
+
+
 
 .box__cok__dopusk {
     background-color: #2e3f62;

@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
 
     <!-- HEADER -->
@@ -77,49 +78,34 @@
                         Ассоциация «НАКС»
                     </p>
                 </div>
-               <div class="box__kontakti">
+                <div class="box__kontakti">
                     <div class="line__text__kompany"></div>
-                <div class="header__tag">
-                    Телефон
-                </div>                
-                <p class="tel">
-                   (8182) 60-89-39
-                 </p>
-                 <div class="header__tag">
-                    Почта
-                </div>
-                <p class="mail">
-                <a href="mailto:?subject=Написать письмо" title="Написать письмо">naksarh@mail.ru</a>
-                 </p>
-                 <div class="header__tag">
-                    Адрес
-                </div>
-                <p class="mail">
-                    163045, город Архангельск, шоссе Талажское, дом 17, этаж 3
-                 </p>
-                 <p class="adres__on__map__contact">
-                        <a href="https://www.google.ru/maps/place/%D0%A2%D0%B0%D0%BB%D0%B0%D0%B6%D1%81%D0%BA%D0%BE%D0%B5+%D1%88.,+17,+%D1%8D%D1%82%D0%B0%D0%B6+3,+%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA,+%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+163045/@64.5741178,40.5682497,17z/data=!3m1!4b1!4m5!3m4!1s0x441836b08e45f113:0x6ac1a682a7a931a3!8m2!3d64.5741155!4d40.5704384" target="_blank">
-                          Адрес на карте
+                    <div class="header__tag">
+                        Телефон
+                    </div>
+                    <p class="tel">
+                        (8182) 60-89-39
+                    </p>
+                    <div class="header__tag">
+                        Почта
+                    </div>
+                    <p class="mail">
+                        <a href="mailto:?subject=Написать письмо" title="Написать письмо">naksarh@mail.ru</a>
+                    </p>
+                    <div class="header__tag">
+                        Адрес
+                    </div>
+                    <p class="mail">
+                        163045, город Архангельск, шоссе Талажское, дом 17, этаж 3
+                    </p>
+                    <p class="adres__on__map__contact">
+                        <a href="https://www.google.ru/maps/place/%D0%A2%D0%B0%D0%BB%D0%B0%D0%B6%D1%81%D0%BA%D0%BE%D0%B5+%D1%88.,+17,+%D1%8D%D1%82%D0%B0%D0%B6+3,+%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA,+%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+163045/@64.5741178,40.5682497,17z/data=!3m1!4b1!4m5!3m4!1s0x441836b08e45f113:0x6ac1a682a7a931a3!8m2!3d64.5741155!4d40.5704384"
+                            target="_blank">
+                            Адрес на карте
                         </a>
-                      </p>
-                 <div class="line__text__kompany"></div>
-               </div>
-               
-                                
-                <p class="header__center__text">Список руководящего состава центра</p>
-                </p>
-                <p class="name__text__header">
-                    Руководитель организации
-                </p>
-                <p class="name__small__text">
-                    Соколов Станислав Андреевич
-                </p>
-                <p class="name__text__header">
-                    Заместитель генерального директора
-                </p>
-                <p class="name__small__text">
-                    Аверин Дмитрий Васильевич
-                </p>
+                    </p>
+                    <div class="line__text__kompany"></div>
+                </div>
                 <div class="list__item__text">
                     <p class="header__name__perechen">
                         Группы технических устройств:
@@ -145,9 +131,49 @@
                         I, II, III
                     </p>
                 </div>
+
+                <p class="header__center__text">Список руководящего состава центра</p>
+                </p>
+                <p class="name__text__header">
+                    Руководитель организации
+                </p>
+                <p class="name__small__text">
+                    Соколов Станислав Андреевич
+                </p>
+                <p class="name__text__header">
+                    Заместитель генерального директора
+                </p>
+                <p class="name__small__text">
+                    Аверин Дмитрий Васильевич
+                </p>
+                <p class="header__center__text" id="oblast__header">Область деятельности</p>
+
+                <p class="header__documenti">Документы</p>
+           <div class="box__jpg">
+            <main role="main">
+                <p class="imglist d-flex">
+                 <a href="img/acst_1.jpg" data-fancybox="group1" data-type="image">
+                   <img src="img/acst_1.jpg" class="img-fluid">
+                 </a>                    
+                 <a href="img/acst_2.jpg" data-fancybox="group1" data-type="image">
+                   <img src="img/acst_2.jpg" class="img-fluid">
+                 </a>                    
+                 <a href="img/acst_3.jpg" data-fancybox="group1" data-type="image">
+                   <img src="img/acst_3.jpg" class="img-fluid">
+                 </a>                    
+                 <a href="img/acst_4.jpg" data-fancybox="group1" data-type="image">
+                   <img src="img/acst_4.jpg" class="img-fluid">
+                 </a>                    
+                 <a href="img/acst_5.jpg" data-fancybox="group1" data-type="image">
+                   <img src="img/acst_5.jpg" class="img-fluid">
+                 </a>                    
+               </p>
+            </main>
+           </div>
+           
             </div>
             <div class="col-xl-3">
-                <div class="section__header d-inline-block">Услуги центра</div>
+                <div class="section__header d-inline-block">Услуги центра</div>                
                 <div class="line__section"></div>
                 <div class="box__serv">
                     <a href="specialis-svarochnogo-proizvodstva.html#specialist-spr">
@@ -181,16 +207,13 @@
                     </a>
                 </div>
             </div>
-
         </div>
-
 
         <button class="back__to__main">
             <a href="index.html"> <img src="/img/back__to__main__arrow.png" class="arrow__back__to__main text-align-center"
                     alt=""> На главную</a>
         </button>
     </div>
-
 
 
     <!-- Include BG_HEADER -->
@@ -208,6 +231,7 @@
 
     <script src="js/script.js"></script>
     <script src="/js/bootstrap.js"></script>
+    <script src="/js/jquery.fancybox.js"></script>
 
     <script>
         w3.includeHTML();

@@ -508,6 +508,12 @@ p {
 .all__news a {
   color: #244485; }
 
+.all__news__button {
+  padding: 10px 20px;
+  border: 1px #244485 solid;
+  color: #244485;
+  font-size: 14px; }
+
 .info-icon {
   margin-right: 5px; }
 
@@ -1146,8 +1152,14 @@ p {
 .header__center__text {
   font-size: 24px;
   font-weight: 500;
-  color: #000;
+  color: #354d7e;
   margin-bottom: 20px; }
+
+.header__documenti {
+  font-size: 18px;
+  font-weight: 300;
+  color: #797979;
+  margin-bottom: 15px; }
 
 .header__text__ocenter {
   font-size: 18px;
