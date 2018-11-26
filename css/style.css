@@ -920,7 +920,7 @@ p {
 
 .line__news__end {
   border-bottom: 1px solid #e8e8e8;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 50px; }
 
 .bar__date__social {
@@ -1043,6 +1043,11 @@ p {
   color: #000;
   margin-bottom: 35px; }
 
+.light__text__box {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000; }
+
 .rules__text {
   font-size: 20px;
   font-weight: 400;
@@ -1144,7 +1149,7 @@ p {
 
 .result__text {
   font-size: 18px;
-  color: #ec1414;
+  border-bottom: 1px #ff6c6c solid;
   background-color: rgba(255, 30, 30, 0.1);
   padding: 25px;
   margin-bottom: 35px; }
@@ -1216,6 +1221,9 @@ p {
   font-weight: 500;
   text-decoration: underline;
   margin-top: 10px; }
+
+.imglist {
+  margin-top: 15px; }
 
 .menu__background {
   background-color: #2e3f62;
