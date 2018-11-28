@@ -11,23 +11,24 @@
 }
 .modal-header {
     border-bottom: none;
-    background-color: #3f3f3f;;
+	background-color: #ffffff;
+	color: #fff;
 }
 .modal-footer {
 	justify-content: flex-start;
 	border-top: none;
 }
 .modal-content {
-	background-color: #3f3f3f;
-	color: #fff;
+	background-color: #ffffff;
+	color: #3f3f3f;
 	border-radius: 0;
 	border: none;
 }
 
 .modal-content .form-control {
-	border: 1px solid #ffffff;
+	border: 1px solid #3f3f3f;
 	background-color: transparent;
-	color: #fff;
+	color: #3f3f3f;
 	font-size: 0.8rem;
 }
 .modal-content .form-control option {
@@ -35,15 +36,15 @@
 }
 .modal-content .custom-control-label::before {
 	background-color: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #3f3f3f;
 }
 .modal-content .custom-control-input:checked ~ .custom-control-label::before {
-	color: #fff;
-	background-color: #474747;
+	color: #3f3f3f;
+	background-color: #3f3f3f;
 }
 .modal-header {
 	position: relative;
-	background-color: #2b2b2b;
+	background-color: #465f92;
 	display: block;
 	border-radius: 0;
 }
@@ -69,14 +70,14 @@
 	top: 0;
 	font-size: 2.5rem;
 	font-weight: 100;
-	color: #fff;
+	color: #3f3f3f;
 	opacity: 1;
 	line-height: inherit;
 	padding: 1rem;
 	margin: 0;
 }
 .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
-	color: #fff;
+	color: #3f3f3f;
 	text-decoration: none;
 	opacity: .5;
 }

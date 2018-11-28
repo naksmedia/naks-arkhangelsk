@@ -440,6 +440,21 @@ p {
   margin-bottom: 50px;
   width: 50px; }
 
+.box__news__content__main {
+  padding: 30px;
+  background-color: #f8f8f8;
+  margin-bottom: 30px; }
+
+.text__content__news__main {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000; }
+
+.text__content__news__main:hover {
+  color: #244485;
+  transition: 0.2s;
+  margin-left: 7px; }
+
 .box__news__content {
   padding: 40px;
   background-color: #ffffff;
@@ -512,7 +527,8 @@ p {
   padding: 10px 20px;
   border: 1px #244485 solid;
   color: #244485;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 15px; }
 
 .info-icon {
   margin-right: 5px; }
@@ -1332,22 +1348,23 @@ input[type="search"]::placeholder {
 
 .modal-header {
   border-bottom: none;
-  background-color: #3f3f3f; }
+  background-color: #ffffff;
+  color: #fff; }
 
 .modal-footer {
   justify-content: flex-start;
   border-top: none; }
 
 .modal-content {
-  background-color: #3f3f3f;
-  color: #fff;
+  background-color: #ffffff;
+  color: #3f3f3f;
   border-radius: 0;
   border: none; }
 
 .modal-content .form-control {
-  border: 1px solid #ffffff;
+  border: 1px solid #3f3f3f;
   background-color: transparent;
-  color: #fff;
+  color: #3f3f3f;
   font-size: 0.8rem; }
 
 .modal-content .form-control option {
@@ -1355,15 +1372,15 @@ input[type="search"]::placeholder {
 
 .modal-content .custom-control-label::before {
   background-color: transparent;
-  border: 1px solid #fff; }
+  border: 1px solid #3f3f3f; }
 
 .modal-content .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  background-color: #474747; }
+  color: #3f3f3f;
+  background-color: #3f3f3f; }
 
 .modal-header {
   position: relative;
-  background-color: #2b2b2b;
+  background-color: #465f92;
   display: block;
   border-radius: 0; }
 
@@ -1384,14 +1401,14 @@ input[type="search"]::placeholder {
   top: 0;
   font-size: 2.5rem;
   font-weight: 100;
-  color: #fff;
+  color: #3f3f3f;
   opacity: 1;
   line-height: inherit;
   padding: 1rem;
   margin: 0; }
 
 .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
-  color: #fff;
+  color: #3f3f3f;
   text-decoration: none;
   opacity: .5; }
 
