@@ -129,11 +129,11 @@ padding: 10px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 350;
-    border: 1px rgb(56, 56, 56) solid;
+    border: 1px #5671a7 solid;
     border-radius: 300px;
     padding: 10px 20px;
     margin: 0px 15px 15px 0px;
-    float: left;   
+    float: left;
 }
 
 .choose__item .items li:hover {
@@ -142,7 +142,7 @@ padding: 10px;
 	transform: scale(1.02, 1.02);
 	color: #fff;
 	border: 1px #5671a7 solid;
-    /* transition: 0.3s; */
+    
 }
 
 .choose__item .items li:active {
@@ -154,7 +154,7 @@ padding: 10px;
     background-color: #5671a7;
     border-radius: 300px;
 	padding: 7px;
-	color: #fff;
+	color: #fff;	
 }
 
 hr {
@@ -171,3 +171,4 @@ hr {
 	margin-bottom: 10px;
 	margin-top: 5px;
 }
+

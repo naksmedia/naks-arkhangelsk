@@ -1451,7 +1451,7 @@ input ~ label[for="sogl"] {
   cursor: pointer;
   font-size: 14px;
   font-weight: 350;
-  border: 1px #383838 solid;
+  border: 1px #5671a7 solid;
   border-radius: 300px;
   padding: 10px 20px;
   margin: 0px 15px 15px 0px;
@@ -1462,8 +1462,7 @@ input ~ label[for="sogl"] {
   transition: 0.5s;
   transform: scale(1.02, 1.02);
   color: #fff;
-  border: 1px #5671a7 solid;
-  /* transition: 0.3s; */ }
+  border: 1px #5671a7 solid; }
 
 .choose__item .items li:active {
   background-color: #5671a7; }

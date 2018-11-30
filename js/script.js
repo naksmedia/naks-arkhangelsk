@@ -1,4 +1,4 @@
-// BTN SEARCH FORM CLICK
+// Кнопка поиска
 
 $( ".btn" ).click(function() {
     $('.search, btn').toggleClass('open');
@@ -14,9 +14,6 @@ $(document).ready(function() {
       $(this).parent().removeClass('active');
    });
 });
-
-
-
 
 
 function check() {
@@ -49,8 +46,7 @@ function check() {
 
 
 // Бургер меню
-
-  // This code dosen't works on Firefox and IE and works on other browesers.
+ 
 $(document).ready(function () {
   $('.animated-icon1,.animated-icon3,.animated-icon4').click(function () {
     $(this).toggleClass('open');
@@ -76,32 +72,31 @@ $(document).ready(function () {
 });
 
 
+// Выбрать несколько элементов
 
-// // Выбрать несколько элементов
+$('.sort').click(function () {
+  var mylist = $('.items');
+  var listitems = mylist.children('li').get();
+  listitems.sort(function (a, b) {
+    var compA = $(a).data('selected');
+    var compB = $(b).data('selected');
+    return (compA < compB) ? 1 : (compA > compB) ? 1 : 0;
+  });
+  $.each(listitems, function (idx, itm) { mylist.append(itm); });
+})
 
-// $('.sort').click(function () {
-//   var mylist = $('.items');
-//   var listitems = mylist.children('li').get();
-//   listitems.sort(function (a, b) {
-//     var compA = $(a).data('selected');
-//     var compB = $(b).data('selected');
-//     return (compA < compB) ? 1 : (compA > compB) ? 1 : 0;
-//   });
-//   $.each(listitems, function (idx, itm) { mylist.append(itm); });
-// })
-
-// $('li', '.items').click(function (){
-//   var checks = $('[type="checkbox"]', '.checks');
-//   var item = $(this);
+$('li', '.items').click(function (){
+  var checks = $('[type="checkbox"]', '.checks');
+  var item = $(this);
   
-//   if(item.data('selected') == '0') {
-//     item.data('selected', '1');
-//     item.addClass('selected');
-//   } else {
-//     item.data('selected', '0');
-//     item.removeClass('selected');
-//   }
+  if(item.data('selected') == '0') {
+    item.data('selected', '1');
+    item.addClass('selected');
+  } else {
+    item.data('selected', '0');
+    item.removeClass('selected');
+  }
   
-//   checks.filter('[data-guid="'+item.data('guid')+'"]').prop('checked', item.data('selected') == '1');
-// });
+  checks.filter('[data-guid="'+item.data('guid')+'"]').prop('checked', item.data('selected') == '1');
+});
 
