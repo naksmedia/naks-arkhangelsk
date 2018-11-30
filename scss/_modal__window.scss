@@ -115,5 +115,59 @@ padding: 10px;
     background-color: #5671a7;
 }
 
+/* Выбор несколько из списка */
 
-/* End Modal */
+.choose__item .items {
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+
+.choose__item .items li {
+    display: block;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 350;
+    border: 1px rgb(56, 56, 56) solid;
+    border-radius: 300px;
+    padding: 10px 20px;
+    margin: 0px 15px 15px 0px;
+    float: left;   
+}
+
+.choose__item .items li:hover {
+    background-color: #5671a7;
+    transition: 0.5s; 
+	transform: scale(1.02, 1.02);
+	color: #fff;
+	border: 1px #5671a7 solid;
+    /* transition: 0.3s; */
+}
+
+.choose__item .items li:active {
+	background-color: #5671a7;	
+      
+}
+
+.selected {
+    background-color: #5671a7;
+    border-radius: 300px;
+	padding: 7px;
+	color: #fff;
+}
+
+hr {
+    clear: both;
+}
+
+.checks {
+    opacity: 0;
+}
+
+
+.col-form-label-sm{
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
