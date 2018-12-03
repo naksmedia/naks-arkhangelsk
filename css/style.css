@@ -445,6 +445,9 @@ p {
   background-color: #f8f8f8;
   margin-bottom: 30px; }
 
+.read__news__hover {
+  background: #888888; }
+
 .text__content__news__main {
   font-size: 14px;
   font-weight: 500;
@@ -1240,6 +1243,9 @@ p {
 
 .imglist {
   margin-top: 15px; }
+
+.otstup__line {
+  margin-bottom: 45px; }
 
 .menu__background {
   background-color: #2e3f62;
