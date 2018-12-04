@@ -39,12 +39,12 @@ p {
       text-align: center; } }
 
 .acst {
-  color: #6f81a7;
+  color: #97a6c9;
   font-size: 14px;
   font-weight: 600; }
 
 .acst:hover {
-  color: #5d709b;
+  color: #7a8db9;
   text-decoration: none; }
 
 /*--------------------- header ---------------------*/
@@ -366,8 +366,8 @@ p {
 
 /*--------------------- Фон + информация правая сторона ---------------------*/
 .head__information {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 350;
   margin-bottom: 20px; }
   @media screen and (max-width: 375px) {
     .head__information {
@@ -382,6 +382,20 @@ p {
     .head__information {
       text-align: center; } }
 
+.head__box__info {
+  background-color: #9bb0da;
+  padding: 45px 35px;
+  margin-bottom: 25px;
+  border-radius: 3px; }
+
+.head__box__text {
+  font-size: 20px; }
+  .head__box__text a {
+    color: #fff; }
+
+.head__box__info:hover {
+  background-color: #829aca; }
+
 .box__serv a {
   font-size: 20px;
   color: #fff; }
@@ -389,10 +403,13 @@ p {
 .box__service {
   background-color: #465f92;
   padding: 45px 35px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  border-radius: 3px; }
 
 .box__service:hover {
-  background-color: #45639e; }
+  background-color: #45639e;
+  transform: scale(1.02, 1.02);
+  transition: 0.3s; }
 
 .button__uslugi {
   border: 1px solid #fff;
@@ -889,6 +906,16 @@ p {
   color: #999999;
   margin-left: 25px; }
 
+.news__naks__tag__maine {
+  font-size: 12px;
+  color: #1a2a4a;
+  margin-bottom: 20px; }
+
+.date__news__maine {
+  font-size: 12px;
+  color: #999999;
+  margin-left: 25px; }
+
 .to__share {
   font-size: 14px;
   color: #000;
@@ -945,7 +972,8 @@ p {
 .bar__date__social {
   margin-bottom: 50px; }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   width: 21px;
   height: 34px; }
 
@@ -1185,7 +1213,7 @@ p {
   color: #797979;
   margin-bottom: 15px; }
 
-.header__text__ocenter {
+.header__text__ocentre {
   font-size: 18px;
   font-weight: 300;
   color: #000;
@@ -1235,14 +1263,61 @@ p {
   margin-top: 20px; }
 
 .adres__on__map__contact {
+  margin-top: 15px; }
+
+.adres__on__map__contact a {
   color: #9c9c9c;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
-  text-decoration: underline;
-  margin-top: 10px; }
+  text-decoration: underline; }
 
 .imglist {
   margin-top: 15px; }
+
+.text__info__zayavki {
+  font-size: 16px;
+  font-weight: 350;
+  color: #000;
+  margin-bottom: 25px; }
+
+.arrow__zayavki {
+  position: relative;
+  top: -4px; }
+
+.text__zayavki {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 0px 15px; }
+  .text__zayavki a {
+    color: #3582c4; }
+
+.text__zayavki a:hover {
+  color: #5aa3e2; }
+
+.download__text__info {
+  margin-bottom: 10px; }
+
+.line__download__page {
+  border-bottom: 1px #6f81a7 solid;
+  margin-top: 35px;
+  margin-bottom: 25px; }
+
+.light__text__info {
+  padding: 0px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px; }
+
+.name__spisok__zayavki {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 15px; }
+
+.box__documenti {
+  margin-bottom: 25px; }
 
 .otstup__line {
   margin-bottom: 45px; }
@@ -1341,6 +1416,10 @@ input[type="search"]::placeholder {
 
 .form-control:focus:-ms-input-placeholder {
   color: transparent; }
+
+@media screen and (max-width: 320px) {
+  .input__group {
+    text-align: left; } }
 
 /* Modal Window */
 .modal {

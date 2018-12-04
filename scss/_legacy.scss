@@ -51,13 +51,13 @@ p {
 }
 
 .acst {
-    color: #6f81a7;
+    color: #97a6c9;
     font-size: 14px;
     font-weight: 600;
 }
 
 .acst:hover {
-    color: #5d709b;
+    color: #7a8db9;
     text-decoration: none;
 }
 
@@ -74,8 +74,9 @@ p {
     color: #000;
     font-weight: 550;
     text-align: right;
-        @media screen and (max-width: 1510px) {
-            margin-top: 15px;
+
+    @media screen and (max-width: 1510px) {
+        margin-top: 15px;
         font-size: 18px;
         float: left;
     }
@@ -84,10 +85,11 @@ p {
 .header__mail {
     font-size: 14px;
     color: #000;
-    font-weight:    400;
+    font-weight: 400;
     text-align: right;
+
     @media screen and (max-width: 1510px) {
-          float: left;
+        float: left;
     }
 
     @media screen and (max-width: 380px) {
@@ -113,7 +115,7 @@ p {
     background: transparent;
     padding: 0px 15px;
     width: 100%;
-  
+
 }
 
 .button__zayavka a {
@@ -275,7 +277,8 @@ p {
     font-size: 16px;
     color: #6f81a7;
     margin-bottom: 15px;
-    a{
+
+    a {
         color: #6f81a7;
         border-bottom: 1px solid #6f81a7;
     }
@@ -285,7 +288,7 @@ p {
     font-size: 12px;
     color: #6f81a7;
     font-weight: 500;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 
 .adres__on__map {
@@ -467,8 +470,8 @@ p {
 /*--------------------- Фон + информация правая сторона ---------------------*/
 
 .head__information {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: 350;
     margin-bottom: 20px;
 
     @media screen and (max-width: 375px) {
@@ -489,19 +492,42 @@ p {
 
 }
 
+.head__box__info {
+    background-color: #9bb0da;
+    padding: 45px 35px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.head__box__text {
+    font-size: 20px;
+
+    a {
+        color: #fff;
+    }
+}
+
+.head__box__info:hover {
+    background-color: #829aca;
+}
+
 .box__serv a {
     font-size: 20px;
     color: #fff;
+
 }
 
 .box__service {
     background-color: #465f92;
     padding: 45px 35px;
     margin-bottom: 25px;
+    border-radius: 3px;
 }
 
 .box__service:hover {
     background-color: #45639e;
+    transform: scale(1.02, 1.02);
+    transition: 0.3s;
 }
 
 .button__uslugi {
@@ -572,9 +598,9 @@ p {
     margin-bottom: 30px;
 }
 
-.read__news__hover{
+.read__news__hover {
     background: #888888;
-   }
+}
 
 .text__content__news__main {
     font-size: 14px;
@@ -671,12 +697,12 @@ p {
     color: #244485;
 }
 
-.all__news__button{
+.all__news__button {
     padding: 10px 20px;
     border: 1px #244485 solid;
-   color: #244485;
-   font-size: 14px;
-   margin-bottom: 15px;
+    color: #244485;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 // Right column Центр аттестации
@@ -692,6 +718,7 @@ p {
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
     padding: 10px 15px;
     background-color: #ffffff;
+
     @media screen and (max-width: 630px) {
         display: none;
     }
@@ -809,20 +836,20 @@ p {
     margin-bottom: 10px;
 }
 
-.header__vopros__text{
+.header__vopros__text {
     font-size: 20px;
     font-weight: 500;
     color: #000;
 }
 
-.vopros__text{
+.vopros__text {
     font-size: 24px;
     font-weight: 300;
     color: #000;
     margin-top: 15px;
 }
 
-.vopros__otvet{
+.vopros__otvet {
     background-color: rgba(60, 255, 0, 0.1);
     padding: 7px;
     margin-top: 10px;
@@ -1116,6 +1143,7 @@ p {
 
 }
 
+
 .box__news__content__inside {
     padding: 40px;
     background-color: #f8f8f8;
@@ -1141,11 +1169,23 @@ p {
     margin-left: 25px;
 }
 
+.news__naks__tag__maine {
+    font-size: 12px;
+    color: #1a2a4a;
+    margin-bottom: 20px;
+}
+
+.date__news__maine {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 25px;
+}
+
 .to__share {
     font-size: 14px;
     color: #000;
     font-weight: 400;
-   }
+}
 
 .vkontakte {
     background-color: #0288d1;
@@ -1178,14 +1218,14 @@ p {
     cursor: pointer;
 }
 
-.text__item__news{
+.text__item__news {
     font-size: 14px;
     color: #000;
     font-weight: 400;
     margin-top: 15px;
 }
 
-.medium__text__item__news{
+.medium__text__item__news {
     font-size: 24px;
     font-weight: 300;
     color: #465f92;
@@ -1193,52 +1233,53 @@ p {
     margin-bottom: 10px;
 }
 
-.light__text__item__news{
+.light__text__item__news {
     font-size: 14px;
     font-weight: 500;
     color: #465f92;
     line-height: 1.8;
 }
 
-.line__news__end{
+.line__news__end {
     border-bottom: 1px solid #e8e8e8;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.bar__date__social{
+.bar__date__social {
     margin-bottom: 50px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     width: 21px;
     height: 34px;
 }
 
-.carousel-control-prev-icon{
-   background: url(../img/next__image__arrow-01.png) no-repeat;
+.carousel-control-prev-icon {
+    background: url(../img/next__image__arrow-01.png) no-repeat;
 }
 
-.carousel-control-next-icon{
-   background: url(../img/next__image__arrow-01.png) no-repeat;
-   -o-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
+.carousel-control-next-icon {
+    background: url(../img/next__image__arrow-01.png) no-repeat;
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 
 // Контакты
 
-.tel{
+.tel {
     font-size: 20px;
     color: #000;
     font-weight: 500;
     margin-bottom: 25px;
 }
 
-.header__tag{
+.header__tag {
     font-size: 20px;
     font-weight: 300;
     color: #000;
@@ -1246,38 +1287,38 @@ p {
     margin-top: 15px;
 }
 
-.mail{
+.mail {
     font-size: 16px;
     font-weight: 400;
     color: #a1a1a1;
 }
 
-.ya__map{
+.ya__map {
     margin-bottom: 25px;
 }
 
 // Услуги центра - специалист сварочного производства
 
-.header__name__service{
+.header__name__service {
     font-size: 24px;
     font-weight: 400;
     color: #000;
     margin-bottom: 35px;
 }
 
-.small__text__service{
+.small__text__service {
     font-size: 14px;
     color: #465f92;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.line__service{
+.line__service {
     border-bottom: 1px solid #465f92;
     margin-bottom: 35px;
 }
 
-.zayavka__button{
+.zayavka__button {
     background-color: transparent;
     background-color: #465f92;
     border: none;
@@ -1287,11 +1328,11 @@ p {
     color: #fff;
     font-size: 16px;
     margin-bottom: 35px;
-   
+
 
 }
 
-.zayavka__button__mob{
+.zayavka__button__mob {
     background-color: transparent;
     background-color: #465f92;
     border: none;
@@ -1301,80 +1342,81 @@ p {
     color: #fff;
     font-size: 16px;
     display: none;
+
     @media screen and (max-width: 1199px) {
-       display: block;
-       margin-bottom: 35px;
+        display: block;
+        margin-bottom: 35px;
     }
 
 }
 
-.header__text__service{
+.header__text__service {
     font-size: 24px;
     color: #000;
     font-weight: 400;
     margin-bottom: 35px;
 }
 
-.list__item__text{
+.list__item__text {
     padding: 25px;
     background-color: #fcfcfc;
     margin-bottom: 35px;
 }
 
-.list__text{
+.list__text {
     font-size: 16px;
     font-weight: 300;
     color: #000;
     line-height: 1.9;
 }
 
-.list__item__text__box{
+.list__item__text__box {
     padding: 25px;
     border-left: 1.5px solid #465f92;
     margin-bottom: 35px;
 
 }
 
-.vazno__list__text{
+.vazno__list__text {
     font-size: 16px;
     color: #000;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.number__item{
+.number__item {
     font-size: 35px;
     font-weight: 500;
     color: #465f92;
 }
 
-.light__text{
+.light__text {
     font-size: 16px;
     font-weight: 400;
     color: #000;
     margin-bottom: 35px;
 }
 
-.light__text__box{
+.light__text__box {
     font-size: 16px;
     font-weight: 400;
-    color: #000;   
+    color: #000;
 }
 
-.rules__text{
+.rules__text {
     font-size: 20px;
     font-weight: 400;
     color: #000;
     margin-bottom: 15px;
 }
 
-.rules__svarshik{
+.rules__svarshik {
     background-color: #fffff1;
     padding: 25px;
     margin-bottom: 15px;
 }
 
-.rules__text__item{
+.rules__text__item {
     font-size: 16px;
     font-weight: 400;
     color: #000;
@@ -1491,27 +1533,26 @@ p {
 
 // О компании страница
 
-.header__center__text{
-font-size: 24px;
-font-weight: 500;
-color: #354d7e;
-margin-bottom: 20px;
+.header__center__text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #354d7e;
+    margin-bottom: 20px;
 }
 
-.header__documenti{
+.header__documenti {
     font-size: 18px;
     font-weight: 300;
     color: #797979;
     margin-bottom: 15px;
 }
 
-.header__text__ocenter{
+.header__text__ocentre {
     font-size: 18px;
     font-weight: 300;
     color: #000;
     margin-bottom: 25px;
 }
-
 
 
 .box__cok__dopusk {
@@ -1519,65 +1560,135 @@ margin-bottom: 20px;
     padding: 25px;
     margin-bottom: 35px;
     width: 350px;
+
     @media screen and (max-width: 500px) {
         width: 100%;
     }
 }
+
 .box__cok__dopusk__text {
     color: #fff;
     font-size: 16px;
 }
 
-.perechen__ustroistv{
+.perechen__ustroistv {
     font-size: 16px;
     font-weight: 500;
     color: #000;
 }
 
-.header__name__perechen{
+.header__name__perechen {
     font-size: 20px;
     font-weight: 450;
     color: #2e3f62;
     margin-bottom: 15px;
 }
 
-.name__text__header{
+.name__text__header {
     font-size: 20px;
     font-weight: 500;
     color: #2e3f62;
     margin-bottom: 10px;
 }
 
-.name__small__text{
+.name__small__text {
     font-size: 16px;
     font-weight: 400;
     color: #000;
     margin-bottom: 25px;
 }
 
-.box__kontakti{
+.box__kontakti {
     margin-bottom: 25px;
 }
 
 .line__text__kompany {
     border-bottom: 1px solid #7191d7;
-    margin-top: 20px;   
+    margin-top: 20px;
 }
 
-.adres__on__map__contact {
-    color: #9c9c9c;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: underline;
-    margin-top: 10px;
-}
-
-.imglist{
+.adres__on__map__contact{
     margin-top: 15px;
 }
 
+.adres__on__map__contact a{
+    color: #9c9c9c;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+      
+}
+
+.imglist {
+    margin-top: 15px;
+}
+
+// Информация для заявителей
+
+.text__info__zayavki {
+    font-size: 16px;
+    font-weight: 350;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.arrow__zayavki {
+    position: relative;
+    top: -4px;
+}
+
+.text__zayavki {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+
+    a {
+        color: #3582c4;
+    }
+}
+
+.text__zayavki a:hover {
+
+    color: #5aa3e2;
+
+}
+
+.download__text__info {
+    margin-bottom: 10px;
+}
+
+.line__download__page{
+    border-bottom: 1px #6f81a7 solid;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.light__text__info{
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;   
+}
+
+.name__spisok__zayavki{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.box__documenti{
+    margin-bottom: 25px;
+}
+
+
+
+
+
 // Отступ
 
-.otstup__line{
-margin-bottom: 45px;
+.otstup__line {
+    margin-bottom: 45px;
 }

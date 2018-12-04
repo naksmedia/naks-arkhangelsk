@@ -126,3 +126,9 @@ input[type="search"]::placeholder {
 .form-control:focus:-ms-input-placeholder {
     color: transparent
 }
+
+.input__group{
+    @media screen and (max-width: 320px) {
+       text-align: left;
+    } 
+}
