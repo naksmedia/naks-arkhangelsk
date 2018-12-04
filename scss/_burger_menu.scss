@@ -56,11 +56,12 @@ color: #fff;
 
 .dropdown-menu {
 
-    margin-top: 20px;
+    margin-top: 22px;
     border-radius: 0px;
     color: #fff;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
     line-height: 2;
+    border: none;
 
     @media screen and (max-width: 320px) {
         font-size: 12px;
