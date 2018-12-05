@@ -492,6 +492,9 @@ p {
 
 }
 
+
+
+
 .head__box__info {
     background-color: #fff;
     padding: 45px 35px;
@@ -500,12 +503,41 @@ p {
     border-bottom: 3px solid rgb(79, 126, 255);
 }
 
+
+
 .head__box__text {
     font-size: 20px;
-
+    font-weight: 300;
     a {
         color: #616161;
     }
+}
+
+.close__modal__voprosi{
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    color: #afafaf;
+    margin-top: 25px;
+    border: 1px solid #afafaf;
+    cursor: pointer;
+ box-shadow: none;
+}
+
+.icon__info{
+    margin-top: -26px;    
+}
+
+.fancybox-content{
+    max-width: 1200px;
+}
+
+.close__modal__voprosi:hover{
+background-color: #f3f3f3;
+color: #505050;
 }
 
 .head__box__info:hover {
@@ -619,7 +651,7 @@ p {
 .box__news__content {
     padding: 40px;
     background-color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.03);
 }
 
@@ -666,7 +698,7 @@ p {
 }
 
 .text__content__news {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
 }
@@ -836,6 +868,14 @@ border-radius: 0px;
     color: #000;
 }
 
+.card__scroll{
+    overflow-y: scroll; /* Добавляем полосы прокрутки */
+    width: 100%; /* Ширина блока */
+    height: 900px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */ 
+    position: relative;       
+}
+
 .text__link {
     border-bottom: 1px dashed;
     font-size: 18px;
@@ -884,6 +924,12 @@ border-radius: 0px;
     background-color: rgba(60, 255, 0, 0.1);
     padding: 7px;
     margin-top: 10px;
+}
+.vopros__otvet__main {
+    background-color: rgba(0, 174, 255, 0.1);
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .arrow__list {
@@ -1178,10 +1224,16 @@ border-radius: 0px;
 .box__news__content__inside {
     padding: 40px;
     background-color: #f8f8f8;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .text__content__news__inside {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.text__content__news__header {
     font-size: 18px;
     font-weight: 500;
     color: #000;
@@ -1191,14 +1243,16 @@ border-radius: 0px;
 .news__naks__tag__inside {
     font-size: 14px;
     color: #1a2a4a;
-    margin-bottom: 20px;
+    margin-bottom: 5px;   
 }
 
 .date__news__inside {
     font-size: 14px;
     color: #999999;
-    margin-left: 25px;
+    margin-right: 25px; 
+    margin-bottom: 5px;  
 }
+
 
 .news__naks__tag__maine {
     font-size: 12px;
@@ -1216,6 +1270,9 @@ border-radius: 0px;
     font-size: 14px;
     color: #000;
     font-weight: 400;
+    @media screen and (max-width: 320px) {
+        margin-top: 5px;
+    }
 }
 
 .vkontakte {
@@ -1223,6 +1280,7 @@ border-radius: 0px;
     border-radius: 3px;
     padding: 5px 3px;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 
@@ -1231,6 +1289,7 @@ border-radius: 0px;
     border-radius: 3px;
     padding: 5px 3px;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 
@@ -1239,6 +1298,7 @@ border-radius: 0px;
     border-radius: 3px;
     padding: 5px 3px;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 
@@ -1278,7 +1338,7 @@ border-radius: 0px;
 }
 
 .bar__date__social {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .carousel-control-prev-icon,
