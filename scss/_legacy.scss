@@ -245,6 +245,7 @@ p {
     font-size: 12px;
     color: #6f81a7;
     font-weight: 500;
+    a{}
 }
 
 .naks__media__logo {
@@ -253,7 +254,9 @@ p {
 
 .razrabotano__basement__footer {
     text-align: right;
-
+    a{
+        color: #6f81a7;
+    }
     @media screen and (max-width: 320px) {
         text-align: center;
     }
@@ -263,6 +266,7 @@ p {
     font-size: 12px;
     font-weight: 500;
     color: #6f81a7;
+    
 }
 
 
@@ -453,7 +457,7 @@ p {
     text-transform: uppercase;
 
     @media screen and (max-width: 320px) {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -509,7 +513,8 @@ p {
     font-size: 20px;
     font-weight: 300;
     a {
-        color: #616161;
+        color: #8a8a8a;
+        font-weight: 250;      
     }
 }
 
@@ -541,7 +546,7 @@ color: #505050;
 }
 
 .head__box__info:hover {
-    background-color: #f0f0f0;
+    background-color: #f4f9ff;
 }
 
 .box__serv a {
@@ -736,6 +741,13 @@ color: #505050;
     color: #244485;
     font-size: 14px;
     margin-bottom: 15px;
+    display: block; 
+    background-color: transparent; 
+    cursor: pointer;    
+}
+
+.all__news__button a{
+    color: #244485;
 }
 
 .subtitle__additional__information__list {
@@ -1308,6 +1320,7 @@ border-radius: 0px;
     padding: 5px 3px;
     cursor: pointer;
 }
+
 
 .text__item__news {
     font-size: 14px;
