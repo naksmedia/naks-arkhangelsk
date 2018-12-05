@@ -197,8 +197,6 @@ p {
 
 .razrabotano__basement__footer {
   text-align: right; }
-  .razrabotano__basement__footer a {
-    color: #6f81a7; }
   @media screen and (max-width: 320px) {
     .razrabotano__basement__footer {
       text-align: center; } }
@@ -356,7 +354,7 @@ p {
   text-transform: uppercase; }
   @media screen and (max-width: 320px) {
     .button__zayavka__text {
-      font-size: 14px; } }
+      font-size: 12px; } }
 
 .button__zayavka__text:hover {
   text-decoration: none;
@@ -395,8 +393,7 @@ p {
   font-size: 20px;
   font-weight: 300; }
   .head__box__text a {
-    color: #8a8a8a;
-    font-weight: 250; }
+    color: #616161; }
 
 .close__modal__voprosi {
   background-color: transparent;
@@ -422,7 +419,7 @@ p {
   color: #505050; }
 
 .head__box__info:hover {
-  background-color: #f4f9ff; }
+  background-color: #f0f0f0; }
 
 .box__serv a {
   font-size: 20px;
@@ -577,12 +574,9 @@ p {
   color: #244485;
   font-size: 14px;
   margin-bottom: 15px;
-  display: block;
-  background-color: transparent;
-  cursor: pointer; }
-
-.all__news__button a {
-  color: #244485; }
+  background: transparent; }
+  .all__news__button a {
+    color: #244485; }
 
 .subtitle__additional__information__list {
   font-size: 14px;
