@@ -100,3 +100,7 @@ $('li', '.items').click(function (){
   checks.filter('[data-guid="'+item.data('guid')+'"]').prop('checked', item.data('selected') == '1');
 });
 
+$(document).on('change', '.file-input-field', function() {  
+  var $value = $(this).parent().next();  
+  $value.addClass("added").text($(this).val().replace(/C:\\fakepath\\/i, ''));
+});

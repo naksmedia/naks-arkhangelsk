@@ -120,7 +120,7 @@ p {
 
 /*--------------------- Footer ---------------------*/
 .footer__box {
-  background-color: #3d4962;
+  background-color: #3a3a3a;
   padding: 45px 0px 45px 0px; }
 
 .logo__gray {
@@ -154,13 +154,13 @@ p {
       font-size: 14px; } }
 
 .footer__text__left {
-  color: #6f81a7;
+  color: #9d9d9d;
   font-size: 12px;
   margin-bottom: 25px;
   font-weight: 500; }
 
 .line__footer {
-  border-bottom: 1px #6f81a7 solid;
+  border-bottom: 1px #9d9d9d solid;
   margin-bottom: 25px;
   width: 100%; }
 
@@ -168,7 +168,6 @@ p {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-  padding: 0px 10px;
   line-height: 3; }
   @media screen and (max-width: 1400px) {
     .menu__footer li {
@@ -192,17 +191,17 @@ p {
       color: #d4d4d4; }
 
 .basement__footer {
-  background-color: #323e57;
+  background-color: #2e2e2e;
   padding: 15px 0px 15px 0px; }
 
 .basement__text {
-  color: #6f81a7;
+  color: #878787;
   font-size: 12px;
   font-weight: 400; }
 
 .political__konf {
   font-size: 12px;
-  color: #6f81a7;
+  color: #878787;
   font-weight: 500; }
 
 .naks__media__logo {
@@ -210,6 +209,8 @@ p {
 
 .razrabotano__basement__footer {
   text-align: right; }
+  .razrabotano__basement__footer a:hover {
+    color: #878787; }
   @media screen and (max-width: 320px) {
     .razrabotano__basement__footer {
       text-align: center; } }
@@ -217,7 +218,7 @@ p {
 .razrabotano__v__naks__media {
   font-size: 12px;
   font-weight: 500;
-  color: #6f81a7; }
+  color: #878787; }
 
 .footer__number {
   color: #fff;
@@ -227,15 +228,15 @@ p {
 
 .footer__mail {
   font-size: 16px;
-  color: #6f81a7;
+  color: #9d9d9d;
   margin-bottom: 15px; }
   .footer__mail a {
-    color: #6f81a7;
-    border-bottom: 1px solid #6f81a7; }
+    color: #9d9d9d;
+    border-bottom: 1px solid #9d9d9d; }
 
 .footer__adres {
   font-size: 12px;
-  color: #6f81a7;
+  color: #9d9d9d;
   font-weight: 500;
   margin-bottom: 10px; }
 
@@ -243,7 +244,7 @@ p {
   margin-bottom: 25px; }
 
 .adres__on__map a {
-  color: #8fa0c4;
+  color: #9d9d9d;
   font-size: 14px;
   font-weight: 500;
   text-decoration: underline; }
@@ -254,7 +255,7 @@ p {
   border-radius: 3px;
   font-size: 14px;
   font-weight: 500;
-  background-color: #8a9abd;
+  background-color: #8b8b8b;
   padding: 0px 15px;
   margin-bottom: 25px; }
 
@@ -265,11 +266,11 @@ p {
   white-space: nowrap; }
 
 .button__zayavka__footer:hover {
-  background-color: #788aaf;
+  background-color: #9d9d9d;
   color: #fff; }
 
 .button__zayavka__footer:active {
-  background-color: #61759c;
+  background-color: #929191;
   color: #fff; }
 
 /*--------------------- БГ + информация ---------------------*/
@@ -1544,6 +1545,49 @@ p {
 .otstup__line {
   margin-bottom: 45px; }
 
+.file-upload {
+  flex: 0 0 8em;
+  position: relative; }
+  .file-upload p {
+    border: 1px solid #919191;
+    border-radius: 0.25em;
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 16px;
+    width: 200px;
+    padding: 10px;
+    transition: background-color 100ms; }
+  .file-upload + p {
+    color: #ccc;
+    overflow: hidden;
+    margin-left: 15px;
+    text-overflow: ellipsis;
+    transition: color 200ms;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #ff5d5d; }
+    @media screen and (max-width: 320px) {
+      .file-upload + p {
+        margin-left: 0px; } }
+    .file-upload + p.added {
+      color: #0051ff; }
+
+input[type="file"] {
+  cursor: pointer;
+  font: inherit;
+  height: 2.75em;
+  background-color: transparent;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  input[type="file"]:hover + p {
+    background-color: rgba(190, 190, 190, 0.3); }
+  input[type="file"]:active + p {
+    background-color: rgba(173, 173, 173, 0.5);
+    top: 1px; }
+
 .menu__background {
   background-color: #2e3f62;
   padding: 15px 0px 15px 0px; }
@@ -1670,7 +1714,7 @@ input[type="search"]::placeholder {
   border: none; }
 
 .modal-content .form-control {
-  border: 1px solid #3f3f3f;
+  border: 1px #5671a7 solid;
   background-color: transparent;
   color: #3f3f3f;
   font-size: 0.8rem; }
@@ -1788,6 +1832,11 @@ hr {
   opacity: 0; }
 
 .col-form-label-sm {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 5px; }
+
+.prikrepit__zayavku {
   font-size: 16px;
   margin-bottom: 10px;
   margin-top: 5px; }
