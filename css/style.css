@@ -38,6 +38,17 @@ p {
     .head__text__numbercok__two {
       text-align: center; } }
 
+.list__acst__center {
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: #97b1e7; }
+  .list__acst__center:focus {
+    box-shadow: none;
+    outline: none; }
+
 .acst {
   color: #97a6c9;
   font-size: 14px;
