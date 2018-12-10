@@ -1,5 +1,5 @@
 // Кнопка поиска
-
+window.onload = function() {
 $( ".btn" ).click(function() {
     $('.search, btn').toggleClass('open');
  });
@@ -103,4 +103,10 @@ $('li', '.items').click(function (){
 $(document).on('change', '.file-input-field', function() {  
   var $value = $(this).parent().next();  
   $value.addClass("added").text($(this).val().replace(/C:\\fakepath\\/i, ''));
+});
+};
+
+require(["popper"], function(popper) {
+  window.Popper = popper;
+  require(["bootstrap"]);
 });

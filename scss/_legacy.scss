@@ -50,6 +50,21 @@ p {
     }
 }
 
+.list__acst__center{
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #97b1e7;
+
+        &:focus{
+        box-shadow: none;
+        outline: none;
+    }
+   
+}
+
 .acst {
     color: #97a6c9;
     font-size: 14px;
@@ -312,12 +327,10 @@ p {
     margin-bottom: 10px;
 }
 
-.adres__on__map {
-    margin-bottom: 25px;
-}
+
 
 .adres__on__map a {
-    color: #9d9d9d;
+    color: #96b0e7;
     font-size: 14px;
     font-weight: 500;
     text-decoration: underline;
@@ -666,12 +679,6 @@ color: #505050;
     color: #000;
 }
 
-.text__content__news__main:hover {
-    color: #244485;
-    transition: 0.2s;
-    margin-left: 7px;
-}
-
 
 .box__news__content {
     padding: 40px;
@@ -685,6 +692,12 @@ color: #505050;
     background-color: #ffffff;
     margin-bottom: 30px;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.03);
+}
+
+.box__news__content__two:hover {
+    background-color: #45639e;
+    transform: scale(1.02, 1.02);
+    transition: 0.3s;
 }
 
 .box__news__content__two:hover {
@@ -705,11 +718,6 @@ color: #505050;
     color: #000;
 }
 
-.text__content__news__two:hover {
-    color: #244485;
-    transition: 0.2s;
-    margin-left: 7px;
-}
 
 .news__naks__tag {
     font-size: 14px;
@@ -728,12 +736,7 @@ color: #505050;
     color: #000;
 }
 
-.text__content__news:hover {
-    color: #244485;
-    transition: 0.2s;
-    margin-left: 7px;
 
-}
 
 .text__two__content__news {
     font-size: 14px;
@@ -779,14 +782,15 @@ color: #505050;
 }
 
 .page-link{
-    color: #3c86be;
+    color: #2e3e60;
     font-size: 14px;
     border-radius: 0px;
 }
+
 .page-item {
 border-radius: 0px;
-
 }
+
 .page-link:hover{
     transition: 0.2s;
 }
@@ -806,19 +810,13 @@ border-radius: 0px;
     font-size: 16px;
     color: #000;
     font-weight: 400;
-    border-radius: 3px;
-    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 3px;   
     padding: 10px 15px;
     background-color: #ffffff;
-
+    border: 1px solid #f8f8f8;
     @media screen and (max-width: 630px) {
         display: none;
     }
-}
-
-.link__profstandarti:hover {
-    background-color: rgb(208, 234, 255);
-
 }
 
 .info-icon {
@@ -836,6 +834,7 @@ border-radius: 0px;
     margin-bottom: 25px;
     text-align: center;
     display: none;
+    margin-top: 25px;
 
     @media screen and (max-width: 630px) {
         display: block;
@@ -844,7 +843,7 @@ border-radius: 0px;
 }
 
 .link__profstandarti:hover {
-    background-color: rgb(208, 234, 255);
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
 
 }
 
@@ -1260,6 +1259,9 @@ border-radius: 0px;
     font-size: 16px;
     font-weight: 500;
     color: #000;
+    &:hover{
+        color: #0249b4;
+    }
 }
 
 .text__content__news__header {
@@ -1277,8 +1279,7 @@ border-radius: 0px;
 
 .date__news__inside {
     font-size: 14px;
-    color: #999999;
-    margin-right: 25px; 
+    color: #999999;   
     margin-bottom: 5px;  
 }
 
@@ -1306,36 +1307,44 @@ border-radius: 0px;
 
 .vkontakte {
     background-color: #0288d1;
-    border-radius: 3px;
-    padding: 5px 3px;
+    padding: 10px;
     cursor: pointer;
     margin-right: 5px;
+    &:hover{
+        background-color: #027abb;
+    }
 }
 
 
 .googlepluse {
     background-color: #f4511e;
-    border-radius: 3px;
-    padding: 5px 3px;
+    padding: 10px;
     cursor: pointer;
     margin-right: 5px;
+    &:hover{
+        background-color: #dd481b;
+    }
 }
 
 
 .twitter {
     background-color: #03a9f4;
-    border-radius: 3px;
-    padding: 5px 3px;
+    padding: 10px;
     cursor: pointer;
     margin-right: 5px;
+    &:hover{
+        background-color: #0b8bc7;
+    }
 }
 
 
 .facebook {
     background-color: #3f51b5;
-    border-radius: 3px;
-    padding: 5px 3px;
+    padding: 10px;
     cursor: pointer;
+    &:hover{
+        background-color: #3647a7;
+    }
 }
 
 .text__item__news {
