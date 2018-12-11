@@ -110,3 +110,4 @@ require(["popper"], function(popper) {
   window.Popper = popper;
   require(["bootstrap"]);
 });
+

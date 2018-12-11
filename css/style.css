@@ -153,7 +153,7 @@ p {
 
 @media screen and (max-width: 320px) {
   .line__footer__two {
-    border-bottom: 1px #6f81a7 solid;
+    border-bottom: 1px #9d9d9d solid;
     width: 100%; } }
 
 .logo__gray__text {
@@ -1047,7 +1047,7 @@ p {
     background-color: #3647a7; }
 
 .text__item__news {
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   font-weight: 400;
   margin-top: 15px; }
@@ -1126,7 +1126,7 @@ p {
   font-size: 18px;
   font-weight: 350;
   color: #3c70d6;
-  margin-bottom: 15px; }
+  margin-bottom: 35px; }
 
 .line__service {
   border-bottom: 1px solid #465f92;
@@ -1589,6 +1589,19 @@ input[type="file"] {
     background-color: rgba(173, 173, 173, 0.5);
     top: 1px; }
 
+.header__political {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000; }
+
+.political__text__small {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
 .menu__background {
   background-color: #2e3f62;
   padding: 15px 0px 15px 0px; }
@@ -1650,9 +1663,16 @@ input[type="file"] {
 .navbar-dark .navbar-toggler {
   border-color: #fff; }
 
+.navbar-toggler {
+  padding: 3px 10px; }
+
 .form-control {
   background-color: transparent;
   float: right; }
+
+@media screen and (max-width: 320px) {
+  .form-inline {
+    width: 75%; } }
 
 .form-control:focus {
   color: #fff;
@@ -1959,7 +1979,7 @@ button:focus {
 
 .card-header {
   border-radius: 3px;
-  background-color: #fafafa; }
+  border: 1px solid rgba(234, 240, 243, 0.5); }
 
 .card-header:hover {
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09); }
@@ -2066,6 +2086,17 @@ button:focus {
 
 .button__search__document:hover {
   background-color: #3c86be; }
+
+@media screen and (max-width: 1199px) {
+  .date__po {
+    display: none; } }
+
+.date__po__mob {
+  display: none; }
+
+@media screen and (max-width: 1199px) {
+  .date__po__mob {
+    display: block; } }
 
 @media screen and (max-width: 320px) {
   .header__logo__center {

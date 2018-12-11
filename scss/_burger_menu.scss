@@ -78,13 +78,22 @@ color: #fff;
     border-color: #fff;
 }
 
+.navbar-toggler{
+    padding: 3px 10px;
+}
+
 // Конец меню
 
 // Форма поиска
 .form-control {
     background-color: transparent;
     float: right;
+}
 
+.form-inline{
+	@media screen and (max-width: 320px) {
+        width: 75%;
+    }
 }
 
 .form-control:focus {

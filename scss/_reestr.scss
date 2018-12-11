@@ -136,7 +136,7 @@ button:focus {
 
 .card-header {
     border-radius: 3px;
-    background-color: #fafafa;
+    border: 1px solid rgba(234, 240, 243, 0.5);
 }
 
 .card-header:hover {
@@ -263,4 +263,21 @@ outline: none;
 
 .button__search__document:hover {
     background-color: #3c86be;
+}
+
+.date__po{
+    @media screen and (max-width: 1199px) {
+        display: none;                
+    }      
+}
+
+.date__po__mob{
+    display: none;
+}
+
+.date__po__mob{
+    @media screen and (max-width: 1199px) {
+        display: block;                
+    }      
+        
 }

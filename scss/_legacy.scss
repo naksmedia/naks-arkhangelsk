@@ -200,7 +200,7 @@ p {
 
 .line__footer__two {
     @media screen and (max-width: 320px) {
-        border-bottom: 1px #6f81a7 solid;
+        border-bottom: 1px #9d9d9d solid;
         width: 100%;
     }
 }
@@ -1348,7 +1348,7 @@ border-radius: 0px;
 }
 
 .text__item__news {
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
     font-weight: 400;
     margin-top: 15px;
@@ -1446,7 +1446,7 @@ border-radius: 0px;
     font-size: 18px;
     font-weight: 350;
     color: #3c70d6;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .line__service {
@@ -2030,3 +2030,20 @@ margin-left: 15px;
       top: 1px;
     }
   }
+
+//  Политика конфиденциальности
+
+.header__political{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+}
+
+.political__text__small{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
