@@ -1638,8 +1638,15 @@ input[type="file"] {
   @media screen and (max-width: 992px) {
     .menu__navbar .navbar .nav-item .nav__link__two {
       padding: 0px 0px 15px;
-      font-weight: 200;
-      line-height: 3; } }
+      font-weight: 200; } }
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    line-height: 2; } }
+
+@media screen and (max-width: 320px) {
+  .navbar-collapse {
+    line-height: 2; } }
 
 .navbar-dark .navbar-nav .nav-link .navbar-dark .navbar-nav .nav-link:hover {
   color: white; }

@@ -45,8 +45,16 @@ color: #fff;
 
     @media screen and (max-width: 992px) {
         padding: 0px 0px 15px;
-        font-weight: 200;
-        line-height: 3;
+        font-weight: 200;        
+    }
+}
+
+.navbar-collapse{
+    @media screen and (max-width: 992px) {
+       line-height: 2;       
+    }
+    @media screen and (max-width: 320px) {
+       line-height: 2;       
     }
 }
 
