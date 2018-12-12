@@ -1067,8 +1067,8 @@ p {
 
 .line__news__end {
   border-bottom: 1px solid #e8e8e8;
-  margin-top: 30px;
-  margin-bottom: 50px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
 .bar__date__social {
   margin-bottom: 15px; }
@@ -1088,6 +1088,32 @@ p {
   -moz-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
+
+.prikrep__doc {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px; }
+
+.soglashenie__button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 25px; }
+
+.soglashenie__button__text {
+  border: 1px #4c74c4 solid;
+  padding: 10px 15px;
+  display: block;
+  font-size: 14px;
+  color: #4c74c4; }
+  .soglashenie__button__text:hover {
+    color: #4c74c4; }
+
+.download__icon {
+  margin-left: 10px; }
+
+.soglashenie__button__text:hover {
+  background-color: rgba(76, 116, 196, 0.1); }
 
 .tel {
   font-size: 20px;
