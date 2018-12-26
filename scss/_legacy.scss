@@ -663,8 +663,7 @@ color: #505050;
 // Новости
 
 .box__news__content__main {
-    padding: 30px;
-    background-color: #f8f8f8;
+    padding: 25px;   
     margin-bottom: 30px;
 }
 
@@ -673,7 +672,7 @@ color: #505050;
 }
 
 .text__content__news__main {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     color: #000;
 }
@@ -687,7 +686,7 @@ color: #505050;
 }
 
 .box__news__content__two {
-    padding: 40px;
+    padding: 25px;
     background-color: #ffffff;
     margin-bottom: 30px;
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.03);
@@ -712,7 +711,7 @@ color: #505050;
 }
 
 .text__content__news__two {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: #000;
 }
@@ -1274,6 +1273,9 @@ border-radius: 0px;
     font-size: 14px;
     color: #1a2a4a;
     margin-bottom: 5px;   
+   a{
+    color: #1a2a4a;
+   }
 }
 
 .date__news__inside {
@@ -1284,14 +1286,14 @@ border-radius: 0px;
 
 
 .news__naks__tag__maine {
-    font-size: 12px;
+    font-size: 14px;
     color: #1a2a4a;
     margin-bottom: 20px;
 }
 
 .date__news__maine {
-    font-size: 12px;
-    color: #999999;
+    font-size: 14px;
+    color: #adadad;
     margin-left: 25px;
 }
 
@@ -1594,6 +1596,20 @@ border-radius: 0px;
     margin-bottom: 10px;
 }
 
+.bd-sidebar-two{
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+    height: calc(74vh - 4rem);
+}
+
+.bd-sidebar-three{
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+    height: calc(73vh - 4rem);
+}
+
 // Профстандарты
 
 
@@ -1792,6 +1808,13 @@ border-radius: 0px;
 
 .imglist {
     margin-top: 15px;
+}
+
+.bd-sidebar{
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+    height: calc(90vh - 4rem);
 }
 
 // Информация для заявителей

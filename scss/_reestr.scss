@@ -1,4 +1,7 @@
-// Реестр сасв
+// Реестр САСв
+.header__form__subject{
+    margin-bottom: 20px;
+}
 
 .reestr__box {
     background-color: #f9f9f9;
@@ -13,24 +16,31 @@
 }
 
 .personal__cok__acst__text {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    color: #000;
-    margin-bottom: 20px;
+    color: #000;    
+    margin-top: 25px;
+}
+
+.cok__name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5ba4dd;
+    margin-bottom: 15px;
 }
 
 .header__name__selected__reestr {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 300;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .box__search__subject__form {
     padding: 35px;
     background-color: #fafafa;
     border-radius: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
     @media screen and (max-width: 1199px) {
         margin-bottom: 15px;
     }
@@ -51,6 +61,9 @@
 label[for=search__subject__restr] {
     font-size: 16px;
 }
+label[for=search__work__subject] {
+    font-size: 16px;
+}
 
 .form__subject__search {
     border-radius: 3px;
@@ -63,6 +76,7 @@ label[for=search__subject__restr] {
     padding: 10px;
     margin-bottom: 15px;
 }
+
 
 .form__subject__search:focus {
     border: 1px solid #2e3f62;
@@ -114,11 +128,10 @@ button:focus {
 .click__named__list {
     font-size: 14px;
     font-weight: 300;
-    color: #3c86be;
+    color: #2e3f62;
     background-color: transparent;
     border: none;
-    text-align: left;
-    cursor: pointer;
+    text-align: left;    
     box-shadow: none;
     outline: none;
     font-weight: 500;
@@ -137,10 +150,13 @@ button:focus {
 .card-header {
     border-radius: 3px;
     border: 1px solid rgba(234, 240, 243, 0.5);
+    cursor: pointer;
+    background: transparent;
 }
 
 .card-header:hover {
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
+    background: transparent;
 }
 
 .additional__information {
@@ -152,8 +168,8 @@ button:focus {
 }
 
 .card-body {
-    background-color: #f0f0f0;
     padding: 25px;   
+    border-bottom: transparent;
 }
 
 
@@ -168,25 +184,33 @@ button:focus {
 .subtitle__additional__information__list {
     font-size: 14px;
     font-weight: 550;
-    color: #2e3e60;
+    color: #2e3f62;
+}
+.subtitle__additional__information__list__no-work {
+    font-size: 14px;
+    font-weight: 550;
+    color: #ff5757;
+    text-decoration: underline;
 }
 .number__list__found__subject{
     font-size: 16px;
     font-weight: 500;
     color: #2e3e60;
+    margin-top: 15px;
     @media screen and (max-width: 20px) {
         float: left;
     }
 }
 
 .number__list{
+    margin-top: 15px;
     @media screen and (max-width: 320px) {
         float: left;
     }
 }
 
 .page-link{
-    color: #3c86be;
+    color: #2e3f62;
 }
 
 .page-link:hover{
@@ -203,7 +227,7 @@ outline: none;
     border: none;
     font-size: 16px;
     font-weight: 450;
-    color: #3c86be;
+    color: #2e3f62;
     cursor: pointer;
     margin-top: 10px;
 }
@@ -239,7 +263,7 @@ outline: none;
 .reestr__link__naks{
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 25px;       
+    margin-bottom: 25px; 
 }
 
 .line__text__one__reestr {
@@ -253,7 +277,7 @@ outline: none;
     border: none;
     padding: 7px 35px;
     border-radius: 3px;
-    background-color: #5ba4dd;
+    background-color: #2e3f62;
     font-size: 16px;
     color: #fff;
     display: block;
@@ -262,7 +286,7 @@ outline: none;
 }
 
 .button__search__document:hover {
-    background-color: #3c86be;
+    background-color: #1f2f4d;
 }
 
 .date__po{

@@ -67,13 +67,6 @@
         </div>
         <div class="line__text__one__reestr"></div>
         <div class="row">
-            <div class="col-xl-4" id="">
-                <p class="header__name__selected__reestr">
-                    Выписка из реестра <br> аттестаций сварщиков
-                </p>
-            </div>          
-        </div>
-        <div class="row">
 
             <div class="col-xl-4">
                 <div class="box__search__subject__form">
@@ -81,85 +74,36 @@
                         Поиск субъекта
                     </p>
                     <div class="form-row">
-                        <div class="col-xl-6">
-                            <label for="search__subject__restr">Ф.И.О</label>
-                            <input type="text" class="form__subject__search" id="">
-                        </div>
-                        <div class="col-xl-6">
-                            <label for="type__of__viev">Вид аттестации</label>
-                            <select id="type__of__viev" class="drop__down__form">
-                                <option selected="">Вн</option>
-                                <option>Дп</option>
-                                <option>Пв</option>
-                                <option>Пр</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-xl-12">
-                            <label for="search__subject__restr">Место работы</label>
-                            <input type="text" class="form__subject__search" id="">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-xl-6">
-                            <label for="type__of__viev">Удостоверение</label>
-                            <select id="type__of__viev" class="drop__down__form">
-                                <option selected="">АР-1ГАЦ</option>
-                                <option>БР-1АЦ</option>
-                                <option>БР-ГАЦ</option>
-                                <option>ВВР-1АЦ</option>
-                            </select>
-                        </div>
-                        <div class="col-xl-6">
-                            <label for="search__subject__restr">Дата выдачи с</label>
-                            <input type="date" class="form__subject__search">
-                            <div class="date__po__mob">
-                                    <label for="search__subject__restr">По</label>
-                                    <input type="date" class="form__subject__search">
-                            </div>
-                        </div>
+
+                        <label for="search__subject__restr">Ф.И.О</label>
+                        <input type="text" placeholder="Иван Иванов Иванович" class="form__subject__search" id="">
 
                     </div>
                     <div class="form-row">
-                        <div class="col-xl-6">
-                           <div class="level-form">
-                                <label for="type__of__viev">Уровень</label>
-                            <select id="type__of__viev" class="drop__down__form">
-                                <option selected="">АР-1ГАЦ</option>
-                                <option>БР-1АЦ</option>
-                                <option>БР-ГАЦ</option>
-                                <option>ВВР-1АЦ</option>
-                            </select>
-                           </div>                      
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="date__po">
-                                    <label for="search__subject__restr">По</label>
-                                    <input type="date" class="form__subject__search">
-                            </div>
-                        </div>
-
+                        <label for="search__work__subject">Место работы</label>
+                        <input type="text" placeholder="Транснефть" class="form__subject__search" id="">
+                        <button type="submit" class="button__search__document" onclick="return false" id="header__doc">
+                            Найти
+                        </button>
                     </div>
-                    <button type="submit" class="button__search__document" onclick="return false" id="header__doc">
-                        Найти
-                    </button>
 
                 </div>
             </div>
 
-            <div class="col-xl-8">                                     
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
                 <div class="header__subject__list">
-                    <div class="col-xl-2 d-inline-block">
+                    <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block">
                         <p class="name__list">Ф.И.О</p>
                     </div>
-                    <div class="col-xl-3 d-inline-block">
+                    <div class="col-md-3 col-sm-3 col-xl-3 d-inline-block">
                         <p class="name__list">Должность</p>
                     </div>
-                    <div class="col-xl-4 d-inline-block">
+                    <div class="col-md-4 col-sm-4 col-xl-4 d-inline-block">
                         <p class="name__list">Номер удостоверения</p>
                     </div>
-                    <div class="col-xl-2 d-inline-block">
+                    <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block">
                         <p class="name__list">Срок действия</p>
                     </div>
                 </div>
@@ -168,22 +112,18 @@
 
                         <div class="accordion" id="accordionExample">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseOne" id="headingOne">
                                     <h5 class="mb-0">
-                                        <div class="col-xl-2 d-inline-block align-middle">
-                                            <button class="click__named__list" type="button" data-toggle="collapse"
-                                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Соколовский <br>
-                                                Андрей Николаевич
-                                            </button>
+                                        <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block align-middle">
+                                            <p class="click__named__list">Аношин Илья <br> Андреевич</p>
                                         </div>
-                                        <div class="col-xl-3 d-inline-block">
+                                        <div class="col-md-3 col-sm-3 col-xl-3 d-inline-block">
                                             <p class="additional__information">Сварщик 4-го разряда</p>
                                         </div>
-                                        <div class="col-xl-4 d-inline-block">
+                                        <div class="col-md-4 col-sm-4 col-xl-4 d-inline-block">
                                             <p class="additional__information">СУР-13АЦ-I-32072</p>
                                         </div>
-                                        <div class="col-xl-2 d-inline-block">
+                                        <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block">
                                             <p class="additional__information">13.07.2020</p>
                                         </div>
                                     </h5>
@@ -207,20 +147,19 @@
                                             <p class="header__additional__information__list">Место аттестации</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">ООО "Сибремстроймонтаж",
-                                                г. Омск</p>
+                                            <p class="subtitle__additional__information__list__no-work">Не работает</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
                                             <p class="subtitle__additional__information__list">Первичная</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">НИ</p>
+                                            <p class="subtitle__additional__information__list">Руководство</p>
                                         </div>
                                         <div class="col-sm-3 d-inline-block align-middle">
                                             <p class="subtitle__additional__information__list">СК(4) / М61</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">АЦСТ - 139</p>
+                                            <p class="subtitle__additional__information__list">СУР - 20АЦ</p>
                                         </div>
 
                                     </div>
@@ -229,22 +168,18 @@
                         </div>
                         <div class="accordion" id="accordionExample">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseTwo" id="headingTwo">
                                     <h5 class="mb-0">
-                                        <div class="col-xl-2 d-inline-block align-middle">
-                                            <button class="click__named__list" type="button" data-toggle="collapse"
-                                                data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                                Соколовский <br>
-                                                Андрей Николаевич
-                                            </button>
+                                        <div class="col-md-2  col-sm-2  col-xl-2 d-inline-block align-middle">
+                                            <p class="click__named__list">Свиридкин Андрей <br> Николаевич</p>
                                         </div>
-                                        <div class="col-xl-3 d-inline-block">
+                                        <div class="col-md-3  col-sm-3  col-xl-3 d-inline-block">
                                             <p class="additional__information">Сварщик 4-го разряда</p>
                                         </div>
-                                        <div class="col-xl-4 d-inline-block">
+                                        <div class="col-md-4  col-sm-4  col-xl-4 d-inline-block">
                                             <p class="additional__information">СУР-13АЦ-I-32072</p>
                                         </div>
-                                        <div class="col-xl-2 d-inline-block">
+                                        <div class="col-md-2  col-sm-2  col-xl-2 d-inline-block">
                                             <p class="additional__information">13.07.2020</p>
                                         </div>
                                     </h5>
@@ -275,13 +210,13 @@
                                             <p class="subtitle__additional__information__list">Первичная</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">НИ</p>
+                                            <p class="subtitle__additional__information__list">Руководство</p>
                                         </div>
                                         <div class="col-sm-3 d-inline-block align-middle">
                                             <p class="subtitle__additional__information__list">СК(4) / М61</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">АЦСТ - 139</p>
+                                            <p class="subtitle__additional__information__list">СУР - 20АЦ</p>
                                         </div>
 
                                     </div>
@@ -290,144 +225,18 @@
                         </div>
                         <div class="accordion" id="accordionExample">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseThree" id="headingThree">
                                     <h5 class="mb-0">
-                                        <div class="col-xl-2 d-inline-block align-middle">
-                                            <button class="click__named__list" type="button" data-toggle="collapse"
-                                                data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                                Соколовский <br>
-                                                Андрей Николаевич
-                                            </button>
+                                        <div class="col-md-2  col-sm-2 col-xl-2 d-inline-block align-middle">
+                                            <p class="click__named__list">Яковлек Николай <br> Павлович</p>
                                         </div>
-                                        <div class="col-xl-3 d-inline-block">
+                                        <div class="col-md-3  col-sm-3 col-xl-3 d-inline-block">
                                             <p class="additional__information">Сварщик 4-го разряда</p>
                                         </div>
-                                        <div class="col-xl-4 d-inline-block">
+                                        <div class="col-md-4  col-sm-4 col-xl-4 d-inline-block">
                                             <p class="additional__information">СУР-13АЦ-I-32072</p>
                                         </div>
-                                        <div class="col-xl-2 d-inline-block">
-                                            <p class="additional__information">13.07.2020</p>
-                                        </div>
-                                    </h5>
-                                </div>
-
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Место работы</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Вид аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Вид деятельности</p>
-                                        </div>
-                                        <div class="col-sm-3 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Область аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Место аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">ООО "Сибремстроймонтаж",
-                                                г. Омск</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">Первичная</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">НИ</p>
-                                        </div>
-                                        <div class="col-sm-3 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">СК(4) / М61</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">АЦСТ - 139</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <div class="col-xl-2 d-inline-block align-middle">
-                                            <button class="click__named__list" type="button" data-toggle="collapse"
-                                                data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                                Соколовский <br>
-                                                Андрей Николаевич
-                                            </button>
-                                        </div>
-                                        <div class="col-xl-3 d-inline-block">
-                                            <p class="additional__information">Сварщик 4-го разряда</p>
-                                        </div>
-                                        <div class="col-xl-4 d-inline-block">
-                                            <p class="additional__information">СУР-13АЦ-I-32072</p>
-                                        </div>
-                                        <div class="col-xl-2 d-inline-block">
-                                            <p class="additional__information">13.07.2020</p>
-                                        </div>
-                                    </h5>
-                                </div>
-
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Место работы</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Вид аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Вид деятельности</p>
-                                        </div>
-                                        <div class="col-sm-3 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Область аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="header__additional__information__list">Место аттестации</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">ООО "Сибремстроймонтаж",
-                                                г. Омск</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">Первичная</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">НИ</p>
-                                        </div>
-                                        <div class="col-sm-3 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">СК(4) / М61</p>
-                                        </div>
-                                        <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">АЦСТ - 139</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <div class="col-xl-2 d-inline-block align-middle">
-                                            <button class="click__named__list" type="button" data-toggle="collapse"
-                                                data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                                Соколовский <br>
-                                                Андрей Николаевич
-                                            </button>
-                                        </div>
-                                        <div class="col-xl-3 d-inline-block">
-                                            <p class="additional__information">Сварщик 4-го разряда</p>
-                                        </div>
-                                        <div class="col-xl-4 d-inline-block">
-                                            <p class="additional__information">СУР-13АЦ-I-32072</p>
-                                        </div>
-                                        <div class="col-xl-2 d-inline-block">
+                                        <div class="col-md-2  col-sm-2 col-xl-2 d-inline-block">
                                             <p class="additional__information">13.07.2020</p>
                                         </div>
                                     </h5>
@@ -458,48 +267,156 @@
                                             <p class="subtitle__additional__information__list">Первичная</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">НИ</p>
+                                            <p class="subtitle__additional__information__list">Руководство</p>
                                         </div>
                                         <div class="col-sm-3 d-inline-block align-middle">
                                             <p class="subtitle__additional__information__list">СК(4) / М61</p>
                                         </div>
                                         <div class="col-sm-2 d-inline-block align-middle">
-                                            <p class="subtitle__additional__information__list">АЦСТ - 139</p>
+                                            <p class="subtitle__additional__information__list">СУР - 20АЦ</p>
                                         </div>
-                                    </div>                                    
 
-                                </div>                         
-                                  
+                                    </div>
+                                </div>
                             </div>
-                                   
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseFour" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block align-middle">
+                                            <p class="click__named__list">Джиганов Сергей <br> Викторович</p>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xl-3 d-inline-block">
+                                            <p class="additional__information">Сварщик 4-го разряда</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 col-xl-4 d-inline-block">
+                                            <p class="additional__information">СУР-13АЦ-I-32072</p>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2 col-xl-2 d-inline-block">
+                                            <p class="additional__information">13.07.2020</p>
+                                        </div>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Место работы</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Вид аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Вид деятельности</p>
+                                        </div>
+                                        <div class="col-sm-3 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Область аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Место аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">ООО "Сибремстроймонтаж",
+                                                г. Омск</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">Первичная</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">Руководство</p>
+                                        </div>
+                                        <div class="col-sm-3 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">СК(4) / М61</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">СУР - 20АЦ</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" data-toggle="collapse" data-target="#collapseFive" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <div class="col-sm-2  col-md-2  col-xl-2 d-inline-block align-middle">
+                                            <p class="click__named__list">Джамашвили Мурдян <br> Всеволодович</p>
+                                        </div>
+                                        <div class="col-sm-3  col-md-3  col-xl-3 d-inline-block">
+                                            <p class="additional__information">Сварщик 4-го разряда</p>
+                                        </div>
+                                        <div class="col-sm-4  col-md-4  col-xl-4 d-inline-block">
+                                            <p class="additional__information">СУР-13АЦ-I-32072</p>
+                                        </div>
+                                        <div class="col-sm-2  col-md-2  col-xl-2 d-inline-block">
+                                            <p class="additional__information">13.07.2020</p>
+                                        </div>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Место работы</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Вид аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Вид деятельности</p>
+                                        </div>
+                                        <div class="col-sm-3 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Область аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="header__additional__information__list">Место аттестации</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">ООО "Сибремстроймонтаж",
+                                                г. Омск</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">Первичная</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">Руководство</p>
+                                        </div>
+                                        <div class="col-sm-3 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">СК(4) / М61</p>
+                                        </div>
+                                        <div class="col-sm-2 d-inline-block align-middle">
+                                            <p class="subtitle__additional__information__list">СУР - 20АЦ</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
 
                         </div>
 
 
                     </div>
-                    <div class="col-xl-3 d-inline-block align-self-center" id="">
+                    <div class="col-xl-3 d-inline-block " id="">
                         <p class="number__list__found__subject">Найдено: 1-5 из 361</p>
                     </div>
-                    <div class="col-xl-9 d-inline-block align-self-center" id="">
+                    <div class="col-xl-9 d-inline-block " id="">
                         <div class="number__list float-right">
                             <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" onclick="return false" aria-label="Previous">
-                                            <span aria-hidden="true"><img src="/img/back__page.png" alt=""></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Назад</a>
                                     </li>
-                                    <li class="page-item"><a class="page-link" href="#" onclick="return false">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#" onclick="return false">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#" onclick="return false">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#" onclick="return false">4</a></li>
-                                    <li class="page-item"><a class="page-link" href="#" onclick="return false">5</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
                                     <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next" onclick="return false">
-                                            <span aria-hidden="true"><img src="/img/next__page.png" alt=""></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
+                                        <a class="page-link" href="#">Вперед</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -511,9 +428,6 @@
 
 
             </div>
-            
-
-
         </div>
 <div class="otstup__line"></div>
 
